@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#070b14">
+<meta name="theme-color" content="#0f0f0f">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="BloxyFlix">
-<meta name="description" content="Historical & Cultural Media Archive — Research, News & Cinema">
-<title>BloxyFlix — Historical Archive</title>
+<meta name="description" content="North Korean Cinema Archive - Educational & Research Content">
+<title>BloxyFlix - North Korean Cinema Archive</title>
 <link rel="manifest" id="pwa-manifest" href="#">
 <script>
 (function(){
@@ -57,7 +57,7 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 :root{
-  /* ═══ BLOXYFLIX BLUE PALETTE ═══ */
+  /* ═══ DPRK PROPAGANDA PALETTE ═══ */
   --bg-primary:#0b0c0f;
   --bg-secondary:#13141a;
   --bg-card:#13141a;
@@ -65,9 +65,9 @@
   --text-primary:#d8d9e0;
   --text-secondary:#6b6d7e;
   --text-muted:#3a3b48;
-  --accent:#1a7fff;
-  --accent-hover:#0055cc;
-  --accent-glow:rgba(26,127,255,0.35);
+  --accent:#e8263a;
+  --accent-hover:#c01e2e;
+  --accent-glow:rgba(232,38,58,0.35);
   --gold:#c9a84c;
   --star:#c9a84c;
   --border:#2a2b35;
@@ -80,8 +80,8 @@
   --radius-pill:99px;
   --shadow:0 2px 16px rgba(0,0,0,0.7);
   --shadow-lg:0 8px 40px rgba(0,0,0,0.85);
-  --shadow-red:0 4px 20px rgba(26,127,255,0.4);
-  --gradient-accent:linear-gradient(135deg,#1a7fff 0%,#0a2a6e 100%);
+  --shadow-red:0 4px 20px rgba(232,38,58,0.4);
+  --gradient-red:linear-gradient(135deg,#e8263a 0%,#8b1a1a 100%);
   --gradient-dark:linear-gradient(180deg,rgba(14,14,14,0) 0%,rgba(14,14,14,0.8) 60%,rgba(14,14,14,1) 100%);
   --gradient-hero:linear-gradient(to top,#0e0e0e 0%,transparent 60%);
   --bg-secondary:#13141a;
@@ -90,11 +90,11 @@
   --text-primary:#d8d9e0;
   --text-secondary:#6b6d7e;
   --text-muted:#3a3b48;
-  --accent:#1a7fff;
-  --accent-hover:#0055cc;
-  --accent-glow:rgba(26,127,255,0.3);
+  --accent:#e8263a;
+  --accent-hover:#c01e2e;
+  --accent-glow:rgba(232,38,58,0.3);
   --border:#2a2b35;
-  --glass:rgba(26,127,255,0.04);
+  --glass:rgba(232,38,58,0.04);
   --glass-border:#2a2b35;
   --success:#22c55e;
   --warning:#c9a84c;
@@ -104,8 +104,8 @@
   --radius-pill:99px;
   --shadow:0 4px 20px rgba(0,0,0,0.7);
   --shadow-lg:0 12px 48px rgba(0,0,0,0.85);
-  --shadow-red:0 6px 24px rgba(26,127,255,0.3);
-  --gradient-accent:linear-gradient(135deg,#1a7fff 0%,#003d99 100%);
+  --shadow-red:0 6px 24px rgba(232,38,58,0.3);
+  --gradient-red:linear-gradient(135deg,#e8263a 0%,#8b0000 100%);
   --gradient-dark:linear-gradient(180deg,rgba(11,12,15,0) 0%,rgba(11,12,15,0.8) 60%,rgba(11,12,15,1) 100%);
   --gradient-hero:linear-gradient(to top,#0b0c0f 0%,transparent 60%);
 }
@@ -113,7 +113,7 @@
 /* ── THEMES ────────────────────────────────────────────── */
 body.theme-classic{
   --bg-primary:#0a0a0a;--bg-secondary:rgba(20,20,20,0.85);--bg-card:rgba(30,30,30,0.6);
-  --bg-hover:rgba(50,50,50,0.7);--accent:#1a7fff;--accent-hover:#0055cc;
+  --bg-hover:rgba(50,50,50,0.7);--accent:#ff0000;--accent-hover:#e8263a;
   --glass:rgba(255,255,255,0.05);--glass-border:rgba(255,255,255,0.1);
   --text-primary:#fff;--text-secondary:#aaa;
 }
@@ -122,25 +122,25 @@ body.theme-midnight{
   --bg-hover:rgba(20,40,90,0.75);--accent:#4f8ef7;--accent-hover:#2d6fd4;
   --glass:rgba(79,142,247,0.07);--glass-border:rgba(79,142,247,0.18);
   --text-primary:#e8f0ff;--text-secondary:#7ea8d8;
-  --gradient-accent:linear-gradient(135deg,#1a3a8a 0%,#4f8ef7 100%);
+  --gradient-red:linear-gradient(135deg,#1a3a8a 0%,#4f8ef7 100%);
 }
 body.theme-forest{
   --bg-primary:#060e08;--bg-secondary:rgba(10,22,12,0.9);--bg-card:rgba(15,35,18,0.65);
   --bg-hover:rgba(25,55,28,0.75);--accent:#3dba6f;--accent-hover:#2a9456;
   --glass:rgba(61,186,111,0.07);--glass-border:rgba(61,186,111,0.18);
   --text-primary:#e4f5eb;--text-secondary:#7dbf96;
-  --gradient-accent:linear-gradient(135deg,#1a5c32 0%,#3dba6f 100%);
+  --gradient-red:linear-gradient(135deg,#1a5c32 0%,#3dba6f 100%);
 }
 body.theme-sunset{
   --bg-primary:#120608;--bg-secondary:rgba(28,10,14,0.9);--bg-card:rgba(45,15,20,0.65);
   --bg-hover:rgba(70,20,25,0.75);--accent:#ff6b35;--accent-hover:#e04e1a;
   --glass:rgba(255,107,53,0.07);--glass-border:rgba(255,107,53,0.2);
   --text-primary:#fff0eb;--text-secondary:#d4906a;
-  --gradient-accent:linear-gradient(135deg,#8b2500 0%,#ff6b35 100%);
+  --gradient-red:linear-gradient(135deg,#8b2500 0%,#ff6b35 100%);
 }
 body.theme-pureblack{
   --bg-primary:#000;--bg-secondary:rgba(5,5,5,0.95);--bg-card:rgba(10,10,10,0.8);
-  --bg-hover:rgba(20,20,20,0.9);--accent:#1a7fff;--accent-hover:#0055cc;
+  --bg-hover:rgba(20,20,20,0.9);--accent:#ff0000;--accent-hover:#e8263a;
   --glass:rgba(255,255,255,0.03);--glass-border:rgba(255,255,255,0.07);
   --text-primary:#fff;--text-secondary:#888;
 }
@@ -227,9 +227,9 @@ body{
 .channel-card{cursor:pointer;transition:all .3s;position:relative;border-radius:16px;overflow:hidden;background:var(--bg-card);border:1px solid var(--glass-border);}
 .channel-card:hover{transform:scale(1.05);z-index:10;box-shadow:0 12px 30px rgba(0,0,0,.4);border-color:var(--accent);}
 .channel-logo{width:100%;aspect-ratio:1;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--bg-hover),var(--bg-card));position:relative;}
-.channel-logo-text{font-size:2rem;font-weight:800;background:var(--gradient-accent);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.channel-logo-text{font-size:2rem;font-weight:800;background:var(--gradient-red);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 .channel-badge{position:absolute;top:.5rem;right:.5rem;background:var(--accent);color:#fff;padding:.2rem .5rem;border-radius:4px;font-size:.65rem;font-weight:700;}
-.channel-badge.live{background:#1a7fff;animation:pulse-live 1.5s infinite;}
+.channel-badge.live{background:#ff0000;animation:pulse-live 1.5s infinite;}
 .channel-info{padding:.75rem;text-align:center;}
 .channel-name{font-size:.85rem;font-weight:600;margin-bottom:.2rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .channel-lang{font-size:.7rem;color:var(--text-secondary);}
@@ -237,7 +237,7 @@ body{
 .sidebar-badge{margin-left:auto;background:var(--accent);color:#fff;font-size:.65rem;font-weight:700;padding:3px 8px;border-radius:10px;}
 .sidebar-section-title{padding:.5rem 1.25rem;font-size:.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-secondary);font-weight:600;}
 /* Coming soon notice */
-.coming-soon-notice{padding:1.5rem;margin:0 0 2rem;background:linear-gradient(135deg,rgba(26,127,255,0.1) 0%,rgba(26,127,255,0.05) 100%);border:1px solid rgba(26,127,255,0.2);border-radius:16px;text-align:center;}
+.coming-soon-notice{padding:1.5rem;margin:0 0 2rem;background:linear-gradient(135deg,rgba(229,9,20,0.1) 0%,rgba(229,9,20,0.05) 100%);border:1px solid rgba(229,9,20,0.2);border-radius:16px;text-align:center;}
 .coming-soon-notice h4{font-size:1.1rem;font-weight:700;margin-bottom:.5rem;color:var(--accent);}
 .coming-soon-notice p{color:var(--text-secondary);font-size:.9rem;}
 
@@ -375,7 +375,7 @@ body{
 /* Video.js Custom Theme */
 .video-js{width:100%;height:100%;background:#000;}
 .vjs-big-play-button{
-  background:rgba(26,127,255,0.85)!important;
+  background:rgba(255,0,0,0.85)!important;
   border:none!important;
   border-radius:50%!important;
   width:72px!important;height:72px!important;
@@ -384,30 +384,30 @@ body{
   transform:translate(-50%,-50%)!important;
   transition:transform .2s,background .2s!important;
 }
-.vjs-big-play-button:hover{background:#1a7fff!important;transform:translate(-50%,-50%) scale(1.1)!important;}
+.vjs-big-play-button:hover{background:#ff0000!important;transform:translate(-50%,-50%) scale(1.1)!important;}
 .vjs-big-play-button .vjs-icon-placeholder:before{font-size:2rem!important;line-height:72px!important;}
 .vjs-control-bar{
   background:linear-gradient(0deg,rgba(0,0,0,0.85) 0%,transparent 100%)!important;
   height:52px!important;
   padding:0 8px!important;
 }
-.vjs-play-progress,.vjs-volume-level{background:#1a7fff!important;}
+.vjs-play-progress,.vjs-volume-level{background:#ff0000!important;}
 .vjs-slider{background:rgba(255,255,255,0.2)!important;}
 .vjs-progress-control:hover .vjs-progress-holder{font-size:1.4em!important;}
 .vjs-load-progress{background:rgba(255,255,255,0.15)!important;}
 .vjs-menu-button-popup .vjs-menu .vjs-menu-content{background:rgba(15,15,15,0.95)!important;border-radius:8px!important;}
-.vjs-menu li.vjs-selected{background:#1a7fff!important;}
-.vjs-time-tooltip{background:#1a7fff!important;border-radius:4px!important;}
+.vjs-menu li.vjs-selected{background:#ff0000!important;}
+.vjs-time-tooltip{background:#ff0000!important;border-radius:4px!important;}
 .vjs-error-display .vjs-modal-dialog-content{background:rgba(10,10,10,0.92)!important;color:#fff!important;}
-.vjs-waiting .vjs-loading-spinner:before,.vjs-seeking .vjs-loading-spinner:before{border-top-color:#1a7fff!important;}
-.vjs-loading-spinner:after{border-top-color:rgba(26,127,255,0.5)!important;}
+.vjs-waiting .vjs-loading-spinner:before,.vjs-seeking .vjs-loading-spinner:before{border-top-color:#ff0000!important;}
+.vjs-loading-spinner:after{border-top-color:rgba(255,0,0,0.5)!important;}
 
 /* Radio Card */
 .radio-card{
   max-width:480px;
   margin:2rem auto;
-  background:linear-gradient(145deg,rgba(8,18,40,0.95),rgba(5,10,25,0.98));
-  border:1px solid rgba(26,127,255,0.18);
+  background:linear-gradient(145deg,rgba(30,8,8,0.95),rgba(15,5,5,0.98));
+  border:1px solid rgba(255,0,0,0.18);
   border-radius:24px;
   overflow:hidden;
   box-shadow:0 24px 60px rgba(0,0,0,0.7),0 0 0 1px rgba(255,255,255,0.04);
@@ -416,7 +416,7 @@ body{
   position:relative;
   width:100%;
   height:220px;
-  background:radial-gradient(ellipse at 50% 60%,rgba(26,127,255,0.12) 0%,rgba(0,0,0,0) 70%);
+  background:radial-gradient(ellipse at 50% 60%,rgba(255,0,0,0.12) 0%,rgba(0,0,0,0) 70%);
   display:flex;align-items:center;justify-content:center;
 }
 .radio-visualizer{
@@ -428,9 +428,9 @@ body{
   position:relative;z-index:2;
   width:120px;height:120px;
   border-radius:50%;
-  background:radial-gradient(circle at 35% 35%,#050f2a,#020812);
-  border:3px solid rgba(26,127,255,0.3);
-  box-shadow:0 0 40px rgba(26,127,255,0.2),inset 0 0 20px rgba(0,0,0,0.8);
+  background:radial-gradient(circle at 35% 35%,#2a0000,#0d0000);
+  border:3px solid rgba(255,0,0,0.3);
+  box-shadow:0 0 40px rgba(255,0,0,0.2),inset 0 0 20px rgba(0,0,0,0.8);
   display:flex;align-items:center;justify-content:center;
   animation:spinDisc 8s linear infinite;
   animation-play-state:paused;
@@ -440,15 +440,15 @@ body{
 .radio-disc-inner{
   width:44px;height:44px;
   border-radius:50%;
-  background:radial-gradient(circle,#030c1a,#0a0000);
-  border:2px solid rgba(26,127,255,0.4);
+  background:radial-gradient(circle,#1a0000,#0a0000);
+  border:2px solid rgba(255,0,0,0.4);
   display:flex;align-items:center;justify-content:center;
-  box-shadow:0 0 12px rgba(26,127,255,0.3);
+  box-shadow:0 0 12px rgba(255,0,0,0.3);
 }
 .radio-disc-letter{
   font-size:1.1rem;font-weight:900;
-  color:#1a7fff;
-  text-shadow:0 0 8px rgba(26,127,255,0.6);
+  color:#ff0000;
+  text-shadow:0 0 8px rgba(255,0,0,0.6);
 }
 .radio-controls{
   padding:1.25rem 1.5rem 1.5rem;
@@ -461,18 +461,18 @@ body{
 }
 .radio-live-badge{
   display:inline-flex;align-items:center;gap:.4rem;
-  background:rgba(26,127,255,0.12);
-  border:1px solid rgba(26,127,255,0.25);
+  background:rgba(255,0,0,0.12);
+  border:1px solid rgba(255,0,0,0.25);
   border-radius:20px;
   padding:.2rem .7rem;
   font-size:.72rem;font-weight:700;
-  color:#4db8ff;
+  color:#ff5555;
   width:fit-content;letter-spacing:.5px;
 }
 .radio-live-dot{
   width:7px;height:7px;
   border-radius:50%;
-  background:#1a7fff;
+  background:#ff0000;
   animation:pulseDot 1.2s ease-in-out infinite;
 }
 @keyframes pulseDot{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.4;transform:scale(.7);}}
@@ -480,16 +480,16 @@ body{
 .radio-btn{
   width:52px;height:52px;
   border-radius:50%;
-  background:linear-gradient(135deg,#1a7fff,#1a7fff);
+  background:linear-gradient(135deg,#e8263a,#ff0000);
   border:none;
   color:#fff;
   cursor:pointer;
   display:flex;align-items:center;justify-content:center;
-  box-shadow:0 4px 20px rgba(26,127,255,0.4);
+  box-shadow:0 4px 20px rgba(255,0,0,0.4);
   transition:transform .15s,box-shadow .15s;
   flex-shrink:0;
 }
-.radio-btn:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(26,127,255,0.55);}
+.radio-btn:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(255,0,0,0.55);}
 .radio-btn svg{width:24px;height:24px;}
 .radio-volume-wrap{flex:1;display:flex;align-items:center;gap:.6rem;color:rgba(255,255,255,0.45);}
 .radio-volume{
@@ -504,8 +504,8 @@ body{
   -webkit-appearance:none;
   width:14px;height:14px;
   border-radius:50%;
-  background:#1a7fff;
-  box-shadow:0 0 6px rgba(26,127,255,0.5);
+  background:#ff0000;
+  box-shadow:0 0 6px rgba(255,0,0,0.5);
   cursor:pointer;
 }
 
@@ -540,20 +540,20 @@ body{
 }
 @keyframes lspin{to{transform:rotate(360deg);}}
 
-@keyframes subscribePulse{0%,100%{box-shadow:0 0 0 0 rgba(26,127,255,0.5);}50%{box-shadow:0 0 0 6px rgba(26,127,255,0);}}
+@keyframes subscribePulse{0%,100%{box-shadow:0 0 0 0 rgba(255,0,0,0.5);}50%{box-shadow:0 0 0 6px rgba(255,0,0,0);}}
 
 /* ── SUBSCRIBE PAGE ─────────────────────────────────────── */
 #page-subscribe{padding:0;}
 .sub-hero{
   position:relative;
-  background:linear-gradient(160deg,#030c1a 0%,#0a0a0a 60%);
+  background:linear-gradient(160deg,#1a0000 0%,#0a0a0a 60%);
   padding:4rem 1.5rem 3rem;
   text-align:center;
   overflow:hidden;
 }
 .sub-hero::before{
   content:'';position:absolute;inset:0;
-  background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(26,127,255,0.18),transparent);
+  background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(255,0,0,0.18),transparent);
   pointer-events:none;
 }
 .sub-yt-logo{
@@ -561,7 +561,7 @@ body{
   font-size:1.7rem;font-weight:900;letter-spacing:-1px;
   color:#fff;margin-bottom:1rem;position:relative;
 }
-.sub-yt-logo svg{width:36px;height:36px;fill:#1a7fff;filter:drop-shadow(0 0 12px rgba(26,127,255,0.6));}
+.sub-yt-logo svg{width:36px;height:36px;fill:#ff0000;filter:drop-shadow(0 0 12px rgba(255,0,0,0.6));}
 .sub-hero-tag{
   font-size:.75rem;font-weight:700;letter-spacing:2px;
   text-transform:uppercase;color:var(--accent);
@@ -583,10 +583,10 @@ body{
   font-size:.95rem;font-weight:800;
   padding:.85rem 2rem;border-radius:50px;
   text-decoration:none;border:none;cursor:pointer;
-  box-shadow:0 6px 28px rgba(26,127,255,0.45);
+  box-shadow:0 6px 28px rgba(255,0,0,0.45);
   transition:all .2s;letter-spacing:.3px;
 }
-.sub-cta-btn:hover{transform:translateY(-2px);box-shadow:0 10px 36px rgba(26,127,255,0.55);}
+.sub-cta-btn:hover{transform:translateY(-2px);box-shadow:0 10px 36px rgba(255,0,0,0.55);}
 .sub-cta-btn svg{width:20px;height:20px;fill:currentColor;}
 .sub-credit-note{
   margin-top:1.1rem;font-size:.75rem;
@@ -608,8 +608,8 @@ body{
   margin-bottom:.9rem;
 }
 .sub-manifesto{
-  background:linear-gradient(135deg,rgba(26,127,255,0.07),rgba(26,127,255,0.03));
-  border:1px solid rgba(26,127,255,0.2);
+  background:linear-gradient(135deg,rgba(255,0,0,0.07),rgba(255,0,0,0.03));
+  border:1px solid rgba(255,0,0,0.2);
   border-radius:18px;padding:1.4rem 1.25rem;margin-bottom:1.5rem;
 }
 .sub-manifesto p{
@@ -633,12 +633,12 @@ body{
 .sub-final-cta p{font-size:.8rem;color:rgba(255,255,255,0.8);margin-bottom:1rem;line-height:1.5;}
 .sub-final-cta a{
   display:inline-flex;align-items:center;gap:.5rem;
-  background:#fff;color:#1a7fff;
+  background:#fff;color:#e8263a;
   font-size:.9rem;font-weight:800;
   padding:.7rem 1.75rem;border-radius:50px;text-decoration:none;
   box-shadow:0 4px 16px rgba(0,0,0,0.3);
 }
-.sub-final-cta a svg{width:18px;height:18px;fill:#1a7fff;}
+.sub-final-cta a svg{width:18px;height:18px;fill:#ff0000;}
 
 /* ── LIVE SIGNAL SECTION ────────────────────────────────── */
 .live-signal-section{
@@ -658,14 +658,14 @@ body{
 }
 .live-dot{
   width:9px;height:9px;border-radius:50%;
-  background:#1a7fff;flex-shrink:0;
-  box-shadow:0 0 0 0 rgba(26,127,255,0.6);
+  background:#ff0000;flex-shrink:0;
+  box-shadow:0 0 0 0 rgba(255,0,0,0.6);
   animation:livePulse 1.4s ease-in-out infinite;
 }
 @keyframes livePulse{
-  0%{box-shadow:0 0 0 0 rgba(26,127,255,0.7);}
-  60%{box-shadow:0 0 0 8px rgba(26,127,255,0);}
-  100%{box-shadow:0 0 0 0 rgba(26,127,255,0);}
+  0%{box-shadow:0 0 0 0 rgba(255,0,0,0.7);}
+  60%{box-shadow:0 0 0 8px rgba(255,0,0,0);}
+  100%{box-shadow:0 0 0 0 rgba(255,0,0,0);}
 }
 @keyframes pulse-live{
   0%,100%{opacity:1;transform:scale(1);}
@@ -673,10 +673,10 @@ body{
 }
 .live-badge-pill{
   font-size:.6rem;font-weight:800;letter-spacing:1.5px;
-  text-transform:uppercase;color:#1a7fff;
-  border:1px solid rgba(26,127,255,0.4);
+  text-transform:uppercase;color:#ff0000;
+  border:1px solid rgba(255,0,0,0.4);
   padding:2px 8px;border-radius:20px;
-  background:rgba(26,127,255,0.08);
+  background:rgba(255,0,0,0.08);
 }
 .signal-cards{display:flex;flex-direction:column;gap:.85rem;}
 .signal-card{
@@ -691,14 +691,14 @@ body{
 }
 .signal-card::before{
   content:'';position:absolute;inset:0;
-  background:linear-gradient(120deg,rgba(26,127,255,0.08) 0%,transparent 60%);
+  background:linear-gradient(120deg,rgba(255,0,0,0.08) 0%,transparent 60%);
   opacity:0;transition:opacity .22s;
 }
 .signal-card:hover::before{opacity:1;}
 .signal-card:hover{
-  border-color:rgba(26,127,255,0.4);
+  border-color:rgba(255,0,0,0.4);
   transform:translateY(-2px);
-  box-shadow:0 8px 28px rgba(26,127,255,0.18);
+  box-shadow:0 8px 28px rgba(255,0,0,0.18);
 }
 .signal-card:active{transform:translateY(0) scale(.98);}
 .signal-card-inner{display:flex;align-items:center;gap:1rem;}
@@ -706,8 +706,8 @@ body{
   width:48px;height:48px;border-radius:14px;flex-shrink:0;
   display:flex;align-items:center;justify-content:center;
   font-size:1.4rem;
-  background:linear-gradient(135deg,rgba(26,127,255,0.18),rgba(180,0,0,0.08));
-  border:1px solid rgba(26,127,255,0.2);
+  background:linear-gradient(135deg,rgba(255,0,0,0.18),rgba(180,0,0,0.08));
+  border:1px solid rgba(255,0,0,0.2);
 }
 .signal-info{flex:1;min-width:0;}
 .signal-name{font-size:.88rem;font-weight:800;color:#fff;line-height:1.2;margin-bottom:.2rem;}
@@ -717,7 +717,7 @@ body{
   text-transform:uppercase;padding:3px 9px;border-radius:20px;
   white-space:nowrap;
 }
-.badge-tv{background:rgba(26,127,255,0.15);color:#ff6666;border:1px solid rgba(26,127,255,0.25);}
+.badge-tv{background:rgba(255,0,0,0.15);color:#ff6666;border:1px solid rgba(255,0,0,0.25);}
 .badge-radio{background:rgba(79,142,247,0.12);color:#7eb3ff;border:1px solid rgba(79,142,247,0.25);}
 .badge-fm{background:rgba(61,186,111,0.12);color:#6ed4a0;border:1px solid rgba(61,186,111,0.25);}
 .signal-arrow{
@@ -730,8 +730,8 @@ body{
 .signal-arrow svg{width:14px;height:14px;fill:currentColor;}
 .signal-fomo-bar{
   display:flex;align-items:center;gap:.5rem;
-  background:linear-gradient(135deg,rgba(26,127,255,0.1),rgba(180,0,0,0.05));
-  border:1px solid rgba(26,127,255,0.2);border-radius:12px;
+  background:linear-gradient(135deg,rgba(255,0,0,0.1),rgba(180,0,0,0.05));
+  border:1px solid rgba(255,0,0,0.2);border-radius:12px;
   padding:.7rem 1rem;margin-bottom:1.2rem;
 }
 .signal-fomo-bar span{font-size:.75rem;color:rgba(255,255,255,0.7);line-height:1.4;}
@@ -741,7 +741,7 @@ body{
   top:60px;
   left:0;
   right:0;
-  background:linear-gradient(90deg, rgba(26,127,255,0.9) 0%, rgba(255,68,68,0.9) 100%);
+  background:linear-gradient(90deg, rgba(255,0,0,0.9) 0%, rgba(255,68,68,0.9) 100%);
   backdrop-filter:blur(10px);
   -webkit-backdrop-filter:blur(10px);
   padding:.75rem 1rem;
@@ -854,7 +854,7 @@ body{
   content:'';
   position:absolute;
   bottom:0;left:0;right:0;height:2px;
-  background:linear-gradient(90deg,transparent,#1a7fff,#c9a84c,transparent);
+  background:linear-gradient(90deg,transparent,#e8263a,#c9a84c,transparent);
   opacity:0.6;
 }
 .nav.scrolled{
@@ -1070,13 +1070,13 @@ body{
 .hero-logo{
   width:60px;
   height:60px;
-  background:var(--gradient-accent);
+  background:var(--gradient-red);
   border-radius:12px;
   display:flex;
   align-items:center;
   justify-content:center;
   margin-bottom:1.5rem;
-  box-shadow:0 8px 32px rgba(26,127,255,0.4);
+  box-shadow:0 8px 32px rgba(229,9,20,0.4);
 }
 .hero-logo svg{width:32px;height:32px;fill:#fff;}
 .hero-title{
@@ -1136,7 +1136,7 @@ body{
 .hero-btn-primary{
   background:var(--accent);
   color:#fff;
-  box-shadow:var(--shadow-blue);
+  box-shadow:var(--shadow-red);
 }
 .hero-btn-primary:hover{
   background:var(--accent-hover);
@@ -1275,7 +1275,7 @@ body{
   color:#fff;
   border-color:var(--accent);
   font-weight:600;
-  box-shadow:0 3px 14px rgba(26,127,255,0.3);
+  box-shadow:0 3px 14px rgba(229,9,20,0.3);
 }
 @media(max-width:768px){
   .filter-tabs{padding:1rem;}
@@ -1375,7 +1375,7 @@ body{
 .card-badge.new{background:var(--success);}
 .card-badge.trending{background:var(--warning);}
 .card-badge.live{background:#e50914;}
-.card-badge.youtube{background:#1a7fff;}
+.card-badge.youtube{background:#ff0000;}
 .video-card.pinned{order:-1;}
 .video-card.pinned .card-thumb::before{
   content:'';
@@ -1426,7 +1426,7 @@ body{
 .card-avatar{
   width:36px;
   height:36px;
-  background:var(--gradient-accent);
+  background:var(--gradient-red);
   border-radius:50%;
   display:flex;
   align-items:center;
@@ -1521,7 +1521,7 @@ body{
 /* Community Section */
 .community-section{padding:2rem 1rem;border-top:1px solid var(--glass-border);margin-top:1rem;}
 .community-header{display:flex;align-items:center;gap:.75rem;margin-bottom:1.5rem;}
-.community-icon{width:40px;height:40px;background:var(--gradient-accent);border-radius:12px;display:flex;align-items:center;justify-content:center;}
+.community-icon{width:40px;height:40px;background:var(--gradient-red);border-radius:12px;display:flex;align-items:center;justify-content:center;}
 .community-icon svg{width:22px;height:22px;fill:#fff;}
 .community-title{font-size:1.2rem;font-weight:700;}
 .community-coming-soon{
@@ -1559,8 +1559,8 @@ body{
 .action-btn{display:flex;align-items:center;gap:.5rem;padding:.65rem 1.1rem;background:var(--bg-card);backdrop-filter:blur(10px);border:1px solid var(--glass-border);border-radius:25px;color:var(--text-primary);font-size:.85rem;cursor:pointer;transition:all .2s;font-weight:500;}
 .action-btn:hover{background:var(--bg-hover);transform:translateY(-2px);}
 .action-btn svg{width:20px;height:20px;fill:currentColor;}
-.action-btn.primary{background:var(--gradient-accent);border-color:transparent;}
-.action-btn.primary:hover{background:var(--accent-hover);box-shadow:0 4px 15px rgba(26,127,255,0.3);}
+.action-btn.primary{background:var(--gradient-red);border-color:transparent;}
+.action-btn.primary:hover{background:var(--accent-hover);box-shadow:0 4px 15px rgba(255,0,0,0.3);}
 .action-btn.active{color:var(--accent);}
 
 /* Rating Stars */
@@ -1570,7 +1570,7 @@ body{
 
 /* Channel Info */
 .channel-info{display:flex;align-items:center;gap:1rem;padding:1.2rem 0;border-bottom:1px solid var(--glass-border);}
-.channel-avatar{width:52px;height:52px;background:var(--gradient-accent);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;}
+.channel-avatar{width:52px;height:52px;background:var(--gradient-red);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;}
 .channel-details{flex:1;}
 .channel-name{font-weight:600;font-size:1.05rem;margin-bottom:.2rem;}
 .channel-subs{color:var(--text-secondary);font-size:.85rem;}
@@ -1823,7 +1823,7 @@ body{
 .search-overlay.active{display:flex;animation:fadeIn .2s ease-out;}
 .search-header{display:flex;align-items:center;gap:1rem;padding:.75rem 1rem;border-bottom:1px solid var(--glass-border);}
 .search-header input{flex:1;background:var(--bg-card);backdrop-filter:blur(10px);border:1px solid var(--glass-border);border-radius:25px;padding:.9rem 1.2rem;color:var(--text-primary);font-size:.95rem;outline:none;transition:all .2s;}
-.search-header input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(26,127,255,0.1);}
+.search-header input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(255,0,0,0.1);}
 .search-header input::placeholder{color:var(--text-secondary);}
 .search-filters{display:flex;gap:.5rem;padding:1rem;overflow-x:auto;scrollbar-width:none;}
 .search-filters::-webkit-scrollbar{display:none;}
@@ -1875,8 +1875,8 @@ body{
 .modal-footer{display:flex;gap:1rem;padding:1.2rem;border-top:1px solid var(--glass-border);}
 .modal-btn{flex:1;padding:.8rem;background:var(--bg-hover);border:1px solid var(--glass-border);border-radius:10px;color:var(--text-primary);font-size:.9rem;cursor:pointer;transition:all .2s;font-weight:500;}
 .modal-btn:hover{background:var(--bg-card);}
-.modal-btn.primary{background:var(--gradient-accent);border-color:transparent;color:#fff;}
-.modal-btn.primary:hover{background:var(--accent-hover);box-shadow:0 4px 15px rgba(26,127,255,0.3);}
+.modal-btn.primary{background:var(--gradient-red);border-color:transparent;color:#fff;}
+.modal-btn.primary:hover{background:var(--accent-hover);box-shadow:0 4px 15px rgba(255,0,0,0.3);}
 
 /* Keyboard Shortcuts */
 .shortcut-list{display:grid;gap:.5rem;}
@@ -1918,7 +1918,7 @@ body{
 }
 
 /* Scroll to top */
-.scroll-top{position:fixed;bottom:90px;right:1rem;width:48px;height:48px;background:var(--gradient-accent);border:none;border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;visibility:hidden;transition:all .3s;z-index:100;box-shadow:0 4px 15px rgba(26,127,255,0.3);}
+.scroll-top{position:fixed;bottom:90px;right:1rem;width:48px;height:48px;background:var(--gradient-red);border:none;border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;visibility:hidden;transition:all .3s;z-index:100;box-shadow:0 4px 15px rgba(255,0,0,0.3);}
 .scroll-top.visible{opacity:1;visibility:visible;}
 .scroll-top:hover{transform:scale(1.1);}
 .scroll-top svg{width:24px;height:24px;fill:currentColor;}
@@ -1967,7 +1967,7 @@ body {
 /* ── NAV: thin red bottom stripe ── */
 .nav {
   background: rgba(14,14,14,0.96) !important;
-  border-bottom: 3px solid #1a7fff !important;
+  border-bottom: 3px solid #e8263a !important;
   border-radius: 0 !important;
   box-shadow: none !important;
 }
@@ -1975,7 +1975,7 @@ body {
   background: rgba(14,14,14,0.98) !important;
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
-  box-shadow: 0 2px 0 #1a7fff !important;
+  box-shadow: 0 2px 0 #e8263a !important;
 }
 
 /* ── LOGO ── */
@@ -1985,17 +1985,17 @@ body {
   color: #f0f0f0 !important;
   text-transform: uppercase !important;
 }
-.logo span { color: #1a7fff !important; }
+.logo span { color: #e8263a !important; }
 
 /* ── HERO BANNER ── */
 .hero-banner {
   background: #0e0e0e !important;
-  border-bottom: 3px solid #1a7fff !important;
+  border-bottom: 3px solid #e8263a !important;
 }
 .hero-banner::before {
   background:
-    radial-gradient(ellipse 70% 90% at 0% 70%, rgba(26,127,255,0.18) 0%, transparent 60%),
-    radial-gradient(ellipse 40% 50% at 95% 15%, rgba(26,127,255,0.08) 0%, transparent 55%) !important;
+    radial-gradient(ellipse 70% 90% at 0% 70%, rgba(232,38,58,0.18) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 50% at 95% 15%, rgba(232,38,58,0.08) 0%, transparent 55%) !important;
 }
 
 /* ── HERO CONTENT ── */
@@ -2015,7 +2015,7 @@ body {
   line-height: 1.8 !important;
 }
 .hero-badge {
-  background: #1a7fff !important;
+  background: #e8263a !important;
   color: #fff !important;
   border-radius: var(--radius) !important;
   font-size: 0.95rem !important;
@@ -2033,14 +2033,14 @@ body {
       -55deg,
       transparent,
       transparent 80px,
-      rgba(26,127,255,0.025) 80px,
-      rgba(26,127,255,0.025) 82px
+      rgba(232,38,58,0.025) 80px,
+      rgba(232,38,58,0.025) 82px
     ) !important;
 }
 
 /* ── HERO LOGO PILL ── */
 .hero-logo {
-  background: #1a7fff !important;
+  background: #e8263a !important;
   border: none !important;
   border-radius: var(--radius-pill) !important;
   color: #fff !important;
@@ -2061,15 +2061,15 @@ body {
   transition: all .15s !important;
 }
 .hero-btn-primary {
-  background: #1a7fff !important;
+  background: #e8263a !important;
   color: #fff !important;
-  border: 2px solid #1a7fff !important;
-  box-shadow: 0 4px 20px rgba(26,127,255,0.4) !important;
+  border: 2px solid #e8263a !important;
+  box-shadow: 0 4px 20px rgba(232,38,58,0.4) !important;
 }
 .hero-btn-primary:hover {
   background: #e60000 !important;
   transform: none !important;
-  box-shadow: 0 6px 28px rgba(26,127,255,0.55) !important;
+  box-shadow: 0 6px 28px rgba(232,38,58,0.55) !important;
 }
 .hero-btn-secondary {
   background: transparent !important;
@@ -2102,10 +2102,10 @@ body {
   transform: none !important;
 }
 .filter-tab.active {
-  background: #1a7fff !important;
+  background: #e8263a !important;
   color: #fff !important;
-  border-color: #1a7fff !important;
-  box-shadow: 0 2px 12px rgba(26,127,255,0.35) !important;
+  border-color: #e8263a !important;
+  box-shadow: 0 2px 12px rgba(232,38,58,0.35) !important;
 }
 
 /* ── SECTION HEADER ── */
@@ -2117,7 +2117,7 @@ body {
 }
 /* Red underline accent on section titles */
 .section-header {
-  border-bottom: 1px solid rgba(26,127,255,0.3) !important;
+  border-bottom: 1px solid rgba(232,38,58,0.3) !important;
   margin-bottom: .75rem !important;
   padding-bottom: .75rem !important;
 }
@@ -2125,14 +2125,14 @@ body {
   font-size: 0.9rem !important;
   letter-spacing: .06em !important;
   text-transform: uppercase !important;
-  color: #1a7fff !important;
-  border: 1.5px solid #1a7fff !important;
+  color: #e8263a !important;
+  border: 1.5px solid #e8263a !important;
   padding: .3rem .6rem !important;
   background: transparent !important;
   border-radius: var(--radius) !important;
   transition: all .15s !important;
 }
-.view-all:hover { background: #1a7fff !important; color: #fff !important; opacity: 1 !important; }
+.view-all:hover { background: #e8263a !important; color: #fff !important; opacity: 1 !important; }
 
 /* ── VIDEO CARDS ── */
 .video-card {
@@ -2143,7 +2143,7 @@ body {
   transition: border-left-color .15s, box-shadow .15s !important;
 }
 .video-card:hover {
-  border-left-color: #1a7fff !important;
+  border-left-color: #e8263a !important;
   box-shadow: 0 6px 30px rgba(0,0,0,0.6) !important;
   transform: none !important;
   z-index: 10 !important;
@@ -2181,7 +2181,7 @@ body {
 
 /* ── NOTICE BANNER ── */
 .notice-banner {
-  background: #1a7fff !important;
+  background: #e8263a !important;
   border-bottom: none !important;
 }
 .notice-text {
@@ -2194,16 +2194,16 @@ body {
 /* ── SIDEBAR ── */
 .sidebar {
   background: #0a0a0a !important;
-  border-right: 3px solid #1a7fff !important;
+  border-right: 3px solid #e8263a !important;
   box-shadow: none !important;
 }
-.sidebar-header { border-bottom: 2px solid rgba(26,127,255,0.4) !important; }
+.sidebar-header { border-bottom: 2px solid rgba(232,38,58,0.4) !important; }
 .sidebar-logo {
   font-size: 0.8rem !important;
   letter-spacing: 2px !important;
   color: #f0f0f0 !important;
 }
-.sidebar-logo span { color: #1a7fff !important; }
+.sidebar-logo span { color: #e8263a !important; }
 .sidebar-item {
   border-radius: var(--radius-pill) !important;
   font-size: 0.88rem !important;
@@ -2216,13 +2216,13 @@ body {
   border-left: 2px solid transparent !important;
 }
 .sidebar-item:hover {
-  background: rgba(26,127,255,0.1) !important;
-  border-left-color: #1a7fff !important;
+  background: rgba(232,38,58,0.1) !important;
+  border-left-color: #e8263a !important;
   color: #f0f0f0 !important;
 }
 .sidebar-item.active {
-  background: rgba(26,127,255,0.15) !important;
-  border-left: 2px solid #1a7fff !important;
+  background: rgba(232,38,58,0.15) !important;
+  border-left: 2px solid #e8263a !important;
   color: #f0f0f0 !important;
 }
 .sidebar-section-title {
@@ -2232,7 +2232,7 @@ body {
   text-transform: uppercase !important;
 }
 .sidebar-badge {
-  background: #1a7fff !important;
+  background: #e8263a !important;
   border-radius: var(--radius) !important;
   font-size: 0.72rem !important;
 }
@@ -2242,18 +2242,18 @@ body {
 .profile-menu {
   border-radius: var(--radius-lg) !important;
   background: #111 !important;
-  border: 1px solid rgba(26,127,255,0.4) !important;
-  border-top: 3px solid #1a7fff !important;
+  border: 1px solid rgba(232,38,58,0.4) !important;
+  border-top: 3px solid #e8263a !important;
   box-shadow: 0 8px 32px rgba(0,0,0,0.8) !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
 }
 .profile-item { border-radius: var(--radius) !important; font-size: 0.88rem !important; letter-spacing: .04em !important; }
-.profile-item:hover { background: rgba(26,127,255,0.12) !important; }
+.profile-item:hover { background: rgba(232,38,58,0.12) !important; }
 .profile-name { font-size: 0.95rem !important; color: #f0f0f0 !important; }
 .profile-email { font-size: 0.8rem !important; color: #555 !important; }
 .profile-header { border-bottom: 1px solid rgba(255,255,255,0.08) !important; }
-.profile-avatar { border-radius: var(--radius) !important; background: #1a7fff !important; }
+.profile-avatar { border-radius: var(--radius) !important; background: #e8263a !important; }
 
 /* ── ACTION BUTTONS ── */
 .action-btn {
@@ -2272,14 +2272,14 @@ body {
   transform: none !important;
 }
 .action-btn.primary {
-  background: #1a7fff !important;
-  border-color: #1a7fff !important;
-  box-shadow: 0 3px 14px rgba(26,127,255,0.35) !important;
+  background: #e8263a !important;
+  border-color: #e8263a !important;
+  box-shadow: 0 3px 14px rgba(232,38,58,0.35) !important;
 }
 .action-btn.primary:hover {
   background: #e60000 !important;
   transform: none !important;
-  box-shadow: 0 5px 20px rgba(26,127,255,0.5) !important;
+  box-shadow: 0 5px 20px rgba(232,38,58,0.5) !important;
 }
 
 /* ── SUBSCRIBE BTN ── */
@@ -2288,15 +2288,15 @@ body {
   font-size: 0.88rem !important;
   letter-spacing: .04em !important;
   text-transform: uppercase !important;
-  background: #1a7fff !important;
-  border: 2px solid #1a7fff !important;
-  box-shadow: 0 3px 14px rgba(26,127,255,0.35) !important;
+  background: #e8263a !important;
+  border: 2px solid #e8263a !important;
+  box-shadow: 0 3px 14px rgba(232,38,58,0.35) !important;
   animation: none !important;
 }
 .subscribe-btn:hover {
   background: #e60000 !important;
   transform: none !important;
-  box-shadow: 0 5px 20px rgba(26,127,255,0.5) !important;
+  box-shadow: 0 5px 20px rgba(232,38,58,0.5) !important;
 }
 .subscribe-btn.subscribed {
   background: transparent !important;
@@ -2318,9 +2318,9 @@ body {
   transition: all .15s !important;
 }
 .player-back-btn:hover {
-  border-color: #1a7fff !important;
+  border-color: #e8263a !important;
   color: #d8d9e0 !important;
-  background: rgba(26,127,255,0.08) !important;
+  background: rgba(232,38,58,0.08) !important;
 }
 .video-title {
   font-size: 0.9rem !important;
@@ -2333,17 +2333,17 @@ body {
 .video-kr { color: #666 !important; font-family: 'Noto Sans KR', sans-serif !important; font-size: 0.9rem !important; font-weight: 400 !important; }
 
 /* Red accent bar above player title */
-.player-info { border-top: 3px solid #1a7fff !important; padding-top: 1rem !important; }
+.player-info { border-top: 3px solid #e8263a !important; padding-top: 1rem !important; }
 
 /* ── DESCRIPTION ── */
 .description {
   background: rgba(255,255,255,0.03) !important;
   border: 1px solid rgba(255,255,255,0.07) !important;
-  border-left: 3px solid #1a7fff !important;
+  border-left: 3px solid #e8263a !important;
   border-radius: var(--radius) !important;
 }
 .description-text { font-size: 0.82rem !important; line-height: 1.8 !important; color: #aaa !important; }
-.show-more { font-size: 0.88rem !important; color: #1a7fff !important; letter-spacing: .06em !important; text-transform: uppercase !important; }
+.show-more { font-size: 0.88rem !important; color: #e8263a !important; letter-spacing: .06em !important; text-transform: uppercase !important; }
 
 /* ── SEARCH ── */
 .search-overlay { background: rgba(14,14,14,0.97) !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
@@ -2351,12 +2351,12 @@ body {
   font-size: 0.85rem !important;
   color: #f0f0f0 !important;
   background: transparent !important;
-  border-bottom: 2px solid #1a7fff !important;
+  border-bottom: 2px solid #e8263a !important;
   border-top: none !important;
   border-left: none !important;
   border-right: none !important;
   border-radius: var(--radius) !important;
-  caret-color: #1a7fff !important;
+  caret-color: #e8263a !important;
 }
 .search-header input::placeholder { color: #333 !important; }
 
@@ -2365,7 +2365,7 @@ body {
   border-radius: var(--radius) !important;
   background: #111 !important;
   border: 1px solid rgba(255,255,255,0.1) !important;
-  border-top: 3px solid #1a7fff !important;
+  border-top: 3px solid #e8263a !important;
   box-shadow: 0 20px 60px rgba(0,0,0,0.9) !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
@@ -2399,10 +2399,10 @@ body {
   font-size: 0.88rem !important;
   letter-spacing: 4px !important;
   color: #fff !important;
-  text-shadow: 0 0 30px rgba(26,127,255,0.4) !important;
+  text-shadow: 0 0 30px rgba(232,38,58,0.4) !important;
   text-transform: uppercase !important;
 }
-.loading-logo span { color: #1a7fff !important; }
+.loading-logo span { color: #e8263a !important; }
 .loading-text {
   font-family: 'JetBrains Mono', monospace !important;
   font-size: 0.72rem !important;
@@ -2424,8 +2424,8 @@ body {
   inset: 0 !important;
   border-radius: 50% !important;
   border: 3px solid transparent !important;
-  border-top-color: #1a7fff !important;
-  border-right-color: rgba(26,127,255,0.2) !important;
+  border-top-color: #e8263a !important;
+  border-right-color: rgba(232,38,58,0.2) !important;
   animation: lspin 1.1s linear infinite !important;
 }
 .loading-spinner::after {
@@ -2447,15 +2447,15 @@ body {
 }
 .loading-progress-fill {
   border-radius: var(--radius) !important;
-  background: linear-gradient(90deg, #1a7fff, #c9a84c) !important;
+  background: linear-gradient(90deg, #e8263a, #c9a84c) !important;
 }
 
 /* ── FAQ ── */
 .faq-item { background: #1a1a1a !important; border-radius: var(--radius) !important; border: 1px solid rgba(255,255,255,0.06) !important; }
-.faq-item:hover,.faq-item.open { background: #1e1e1e !important; border-left: 2px solid #1a7fff !important; }
+.faq-item:hover,.faq-item.open { background: #1e1e1e !important; border-left: 2px solid #e8263a !important; }
 .faq-question { font-size: 1.15rem !important; letter-spacing: .05em !important; color: #f0f0f0 !important; }
 .faq-answer-inner { font-size: 1.15rem !important; line-height: 1.8 !important; color: #888 !important; }
-.faq-chevron { fill: #1a7fff !important; }
+.faq-chevron { fill: #e8263a !important; }
 
 /* ── SETTINGS ── */
 .settings-item { border-bottom: 1px solid rgba(255,255,255,0.06) !important; }
@@ -2465,69 +2465,69 @@ body {
 
 /* ── TOGGLE SWITCH ── */
 .toggle-switch { border-radius: var(--radius) !important; background: #333 !important; border: 1px solid #444 !important; }
-.toggle-switch.active { background: #1a7fff !important; border-color: #1a7fff !important; }
+.toggle-switch.active { background: #e8263a !important; border-color: #e8263a !important; }
 .toggle-switch::after { border-radius: var(--radius) !important; }
 
 /* ── UP NEXT ── */
 .up-next-item { border-radius: var(--radius) !important; background: #1a1a1a !important; border: 1px solid rgba(255,255,255,0.06) !important; }
-.up-next-item:hover { border-left: 2px solid #1a7fff !important; background: #1e1e1e !important; }
+.up-next-item:hover { border-left: 2px solid #e8263a !important; background: #1e1e1e !important; }
 .up-next-video-title { font-size: 0.95rem !important; color: #f0f0f0 !important; line-height: 1.5 !important; }
 .up-next-channel { font-size: 1.7rem !important; color: #555 !important; letter-spacing: .04em !important; }
 .up-next-thumb { border-radius: var(--radius) !important; }
 
 /* ── CHANNEL CARD ── */
 .channel-card { border-radius: var(--radius) !important; background: #1a1a1a !important; border: 1px solid rgba(255,255,255,0.07) !important; }
-.channel-card:hover { border-color: #1a7fff !important; box-shadow: 0 6px 24px rgba(0,0,0,0.5) !important; transform: none !important; }
+.channel-card:hover { border-color: #e8263a !important; box-shadow: 0 6px 24px rgba(0,0,0,0.5) !important; transform: none !important; }
 .channel-name { font-size: 0.95rem !important; letter-spacing: .05em !important; color: #f0f0f0 !important; }
 .channel-logo-text { font-size: 1.4rem !important; }
 
 /* ── CONTINUE WATCHING ── */
-.continue-card { border-radius: var(--radius) !important; border: 1px solid rgba(255,255,255,0.07) !important; border-left: 2px solid #1a7fff !important; }
+.continue-card { border-radius: var(--radius) !important; border: 1px solid rgba(255,255,255,0.07) !important; border-left: 2px solid #e8263a !important; }
 .continue-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.5) !important; transform: none !important; }
 .continue-card-title { font-size: 0.95rem !important; line-height: 1.5 !important; }
 
 /* ── SIGNAL CARD (Live section) ── */
 .signal-card { border-radius: var(--radius) !important; background: #1a1a1a !important; border: 1px solid rgba(255,255,255,0.07) !important; }
-.signal-card:hover { border-left: 2px solid #1a7fff !important; transform: none !important; }
+.signal-card:hover { border-left: 2px solid #e8263a !important; transform: none !important; }
 .signal-name { font-size: 1.15rem !important; letter-spacing: .05em !important; color: #f0f0f0 !important; }
 
 
 
 /* ── LIVE DOT ── */
-.live-dot { background: #1a7fff !important; box-shadow: 0 0 6px rgba(26,127,255,0.7) !important; }
+.live-dot { background: #e8263a !important; box-shadow: 0 0 6px rgba(232,38,58,0.7) !important; }
 
 /* ── CARD PROGRESS BAR ── */
-.card-progress-bar { background: #1a7fff !important; border-radius: var(--radius) !important; }
+.card-progress-bar { background: #e8263a !important; border-radius: var(--radius) !important; }
 .card-progress { border-radius: var(--radius) !important; }
 
 /* ── INFO PAGES ── */
 .info-header h1 { font-size: 0.9rem !important; letter-spacing: 2px !important; line-height: 1.6 !important; text-transform: uppercase !important; }
-.info-content h2 { font-size: 0.82rem !important; letter-spacing: .05em !important; text-transform: uppercase !important; border-left: 3px solid #1a7fff !important; padding-left: .75rem !important; }
+.info-content h2 { font-size: 0.82rem !important; letter-spacing: .05em !important; text-transform: uppercase !important; border-left: 3px solid #e8263a !important; padding-left: .75rem !important; }
 .info-content p, .info-content li { font-size: 1.15rem !important; line-height: 1.9 !important; color: #aaa !important; }
-.highlight-box { background: rgba(26,127,255,0.06) !important; border: 1px solid rgba(26,127,255,0.2) !important; border-left: 3px solid #1a7fff !important; border-radius: var(--radius) !important; }
+.highlight-box { background: rgba(232,38,58,0.06) !important; border: 1px solid rgba(232,38,58,0.2) !important; border-left: 3px solid #e8263a !important; border-radius: var(--radius) !important; }
 
 /* ── WATCHLIST / HISTORY ── */
 .watchlist-card { border-radius: var(--radius) !important; border: 1px solid rgba(255,255,255,0.07) !important; background: #1a1a1a !important; }
-.watchlist-card:hover { border-left: 2px solid #1a7fff !important; }
+.watchlist-card:hover { border-left: 2px solid #e8263a !important; }
 
 /* ── INSTALL BANNER ── */
-.install-banner { background: #0a0a0a !important; border-top: 2px solid #1a7fff !important; backdrop-filter: none !important; }
-.install-btn { background: #1a7fff !important; border-radius: var(--radius) !important; font-size: 0.88rem !important; letter-spacing: .06em !important; }
+.install-banner { background: #0a0a0a !important; border-top: 2px solid #e8263a !important; backdrop-filter: none !important; }
+.install-btn { background: #e8263a !important; border-radius: var(--radius) !important; font-size: 0.88rem !important; letter-spacing: .06em !important; }
 
 
 /* ── RADIO PLAYER ── */
-.radio-card { background: #111 !important; border: 1px solid rgba(255,255,255,0.08) !important; border-top: 3px solid #1a7fff !important; border-radius: var(--radius) !important; }
+.radio-card { background: #111 !important; border: 1px solid rgba(255,255,255,0.08) !important; border-top: 3px solid #e8263a !important; border-radius: var(--radius) !important; }
 .radio-station-name { font-size: 0.82rem !important; letter-spacing: .05em !important; text-transform: uppercase !important; }
-.radio-btn { background: #1a7fff !important; border-radius: var(--radius) !important; border: none !important; color: #fff !important; }
+.radio-btn { background: #e8263a !important; border-radius: var(--radius) !important; border: none !important; color: #fff !important; }
 .radio-btn:hover { background: #e60000 !important; }
-.radio-live-badge { background: #1a7fff !important; border-radius: var(--radius) !important; font-size: 0.9rem !important; letter-spacing: .04em !important; }
+.radio-live-badge { background: #e8263a !important; border-radius: var(--radius) !important; font-size: 0.9rem !important; letter-spacing: .04em !important; }
 
 /* ── STAR RATING ── */
 .star { font-size: 0.95rem !important; }
 .star.active { color: var(--star) !important; }
 
 /* ── COMMENTS ── */
-.comment-avatar { border-radius: var(--radius) !important; background: #1a7fff !important; }
+.comment-avatar { border-radius: var(--radius) !important; background: #e8263a !important; }
 .comment-text { font-size: 1.15rem !important; line-height: 1.8 !important; color: #aaa !important; }
 .comment-author { font-size: 0.85rem !important; letter-spacing: .06em !important; }
 
@@ -2535,7 +2535,7 @@ body {
 .info-page {
   background-image: repeating-linear-gradient(
     -45deg, transparent, transparent 40px,
-    rgba(26,127,255,0.015) 40px, rgba(26,127,255,0.015) 41px
+    rgba(232,38,58,0.015) 40px, rgba(232,38,58,0.015) 41px
   ) !important;
 }
 
@@ -2551,12 +2551,12 @@ body {
   color: rgba(240,240,240,0.5) !important;
   transition: all .15s !important;
 }
-#sortToggleBtn:hover { border-color: #1a7fff !important; color: #f0f0f0 !important; }
+#sortToggleBtn:hover { border-color: #e8263a !important; color: #f0f0f0 !important; }
 
 /* ── NAV ICONS ── */
 .nav-icon, .menu-btn { color: #f0f0f0 !important; border-radius: var(--radius) !important; }
-.nav-icon:hover, .menu-btn:hover { background: rgba(26,127,255,0.12) !important; }
-.nav-badge { background: #1a7fff !important; border-radius: var(--radius) !important; font-family: 'Bebas Neue', 'Impact', sans-serif !important; font-size: 0.9rem !important; }
+.nav-icon:hover, .menu-btn:hover { background: rgba(232,38,58,0.12) !important; }
+.nav-badge { background: #e8263a !important; border-radius: var(--radius) !important; font-family: 'Bebas Neue', 'Impact', sans-serif !important; font-size: 0.9rem !important; }
 
 /* Remove all hover transforms globally */
 * { transition-timing-function: linear !important; }
@@ -2638,7 +2638,7 @@ html,body{background:#0a0a0a!important;margin:0;padding:0;}
   font-size:2.8rem;font-weight:900;letter-spacing:-1px;
   color:#fff;margin-bottom:.75rem;
 }
-#bf-splash-logo span{color:#1a7fff;}
+#bf-splash-logo span{color:#ff0000;}
 #bf-splash-text{
   font-size:.9rem;color:#888;
   font-family:Arial,sans-serif;font-weight:400;
@@ -2647,7 +2647,7 @@ html,body{background:#0a0a0a!important;margin:0;padding:0;}
 #bf-splash-dots span{
   display:inline-block;
   animation:bfDot 1.2s ease-in-out infinite;
-  color:#1a7fff;
+  color:#ff0000;
 }
 #bf-splash-dots span:nth-child(2){animation-delay:.2s;}
 #bf-splash-dots span:nth-child(3){animation-delay:.4s;}
@@ -2676,8 +2676,8 @@ html,body{background:#0a0a0a!important;margin:0;padding:0;}
   background: #0d0e12 !important;
 }
 /* Vjs brand */
-.vjs-play-progress, .vjs-volume-level { background: #1a7fff !important; }
-.vjs-big-play-button { border-color: #1a7fff !important; }
+.vjs-play-progress, .vjs-volume-level { background: #e8263a !important; }
+.vjs-big-play-button { border-color: #e8263a !important; }
 /* Action buttons angular */
 .action-btn, .sub-cta-btn, .install-btn {
   border-radius: 0 !important;
@@ -2685,828 +2685,27 @@ html,body{background:#0a0a0a!important;margin:0;padding:0;}
 }
 /* Filter tabs */
 .filter-tab { border-radius: 0 !important; font-family: 'JetBrains Mono', monospace !important; font-size: 0.72rem !important; letter-spacing: 0.08em !important; }
-.filter-tab.active { background: #1a7fff !important; border-color: #1a7fff !important; }
+.filter-tab.active { background: #e8263a !important; border-color: #e8263a !important; }
 /* Signal cards */
 .signal-card { border-radius: 0 !important; border-top: 2px solid transparent !important; }
-.signal-card:hover { border-top-color: #1a7fff !important; }
+.signal-card:hover { border-top-color: #e8263a !important; }
 /* Channel cards */
 .channel-card { border-radius: 0 !important; }
-.channel-card:hover { border-color: #1a7fff !important; }
+.channel-card:hover { border-color: #e8263a !important; }
 /* Up next */
 .up-next-item { border-radius: 0 !important; }
 /* FAQ */
 .faq-item { border-radius: 0 !important; }
 /* Sidebar items */
 .sidebar-item { border-radius: 0 !important; }
-.sidebar-item.active { background: #1a7fff !important; }
+.sidebar-item.active { background: #e8263a !important; }
 /* Modal */
-.modal-content { border-radius: 0 !important; border-top: 3px solid #1a7fff !important; }
+.modal-content { border-radius: 0 !important; border-top: 3px solid #e8263a !important; }
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #0b0c0f; }
 ::-webkit-scrollbar-thumb { background: #2a2b35; border-radius: 0; }
-::-webkit-scrollbar-thumb:hover { background: #1a7fff; }
-</style>
-
-<!-- ══════════════════════════════════════════════════════════
-     MEDIA CMS BLUE AESTHETIC OVERRIDE
-     Inspired by Jellyfin / Plex / Emby design language
-     Deep navy · crisp blue accents · professional media UI
-══════════════════════════════════════════════════════════ -->
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-/* ── ROOT PALETTE UPGRADE ── */
-:root {
-  --cms-bg:         #0d1117 !important;
-  --cms-surface:    #161b27 !important;
-  --cms-surface2:   #1c2336 !important;
-  --cms-surface3:   #212940 !important;
-  --cms-border:     rgba(99,131,185,0.15) !important;
-  --cms-border2:    rgba(99,131,185,0.25) !important;
-  --cms-blue:       #1d6ff0 !important;
-  --cms-blue-bright:#4d9fff !important;
-  --cms-blue-glow:  rgba(29,111,240,0.35) !important;
-  --cms-blue-dim:   rgba(29,111,240,0.12) !important;
-  --cms-text:       #e2e8f5 !important;
-  --cms-text2:      #8b9ab5 !important;
-  --cms-text3:      #4a5568 !important;
-  --cms-accent-bar: linear-gradient(90deg, #1d6ff0, #4d9fff) !important;
-}
-
-/* ── BASE BODY ── */
-body {
-  background: #0d1117 !important;
-  color: #e2e8f5 !important;
-  font-family: 'Plus Jakarta Sans', 'DM Sans', sans-serif !important;
-  -webkit-font-smoothing: antialiased !important;
-}
-
-/* Subtle star/dot background texture */
-body::before {
-  content: '' !important;
-  position: fixed !important;
-  inset: 0 !important;
-  background-image:
-    radial-gradient(circle at 20% 15%, rgba(29,111,240,0.06) 0%, transparent 55%),
-    radial-gradient(circle at 80% 80%, rgba(77,159,255,0.04) 0%, transparent 50%) !important;
-  pointer-events: none !important;
-  z-index: 0 !important;
-}
-
-/* ── NAVIGATION BAR ── */
-.nav {
-  background: rgba(13,17,23,0.85) !important;
-  border-bottom: 1px solid rgba(99,131,185,0.18) !important;
-  backdrop-filter: blur(20px) saturate(180%) !important;
-  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
-  padding: 0 !important;
-}
-.nav::after {
-  background: linear-gradient(90deg, transparent, #1d6ff0 40%, #4d9fff 60%, transparent) !important;
-  opacity: 0.8 !important;
-  height: 1px !important;
-}
-.nav-wrap {
-  padding: 0 1.5rem !important;
-  height: 60px !important;
-}
-.logo {
-  font-family: 'Space Grotesk', 'Bebas Neue', sans-serif !important;
-  font-size: 1.35rem !important;
-  letter-spacing: 0.04em !important;
-  font-weight: 700 !important;
-}
-.logo span {
-  color: #4d9fff !important;
-  text-shadow: 0 0 20px rgba(77,159,255,0.5) !important;
-}
-.nav-icon {
-  border-radius: 8px !important;
-  transition: background 0.15s, color 0.15s !important;
-}
-.nav-icon:hover {
-  background: rgba(29,111,240,0.15) !important;
-  color: #4d9fff !important;
-}
-.menu-btn {
-  border-radius: 8px !important;
-}
-.menu-btn:hover {
-  background: rgba(29,111,240,0.12) !important;
-  color: #4d9fff !important;
-}
-
-/* ── SIDEBAR — CMS LEFT RAIL ── */
-.sidebar {
-  background: #0f1420 !important;
-  border-right: 1px solid rgba(99,131,185,0.12) !important;
-  box-shadow: 4px 0 40px rgba(0,0,0,0.6) !important;
-  width: 256px !important;
-}
-.sidebar-header {
-  background: rgba(29,111,240,0.08) !important;
-  border-bottom: 1px solid rgba(99,131,185,0.15) !important;
-  padding: 1.1rem 1.25rem !important;
-}
-.sidebar-logo {
-  font-family: 'Space Grotesk', sans-serif !important;
-  font-size: 1.1rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.04em !important;
-  color: #e2e8f5 !important;
-}
-.sidebar-section {
-  border-bottom: 1px solid rgba(99,131,185,0.08) !important;
-  padding: 0.6rem 0 !important;
-}
-.sidebar-section-title {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.65rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.1em !important;
-  text-transform: uppercase !important;
-  color: #4a5568 !important;
-  padding: 0.75rem 1.25rem 0.35rem !important;
-}
-.sidebar-item {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.85rem !important;
-  padding: 0.7rem 1.25rem !important;
-  margin: 0.1rem 0.5rem !important;
-  border-radius: 8px !important;
-  color: #8b9ab5 !important;
-  font-size: 0.875rem !important;
-  font-weight: 500 !important;
-  transition: all 0.15s ease !important;
-  border: 1px solid transparent !important;
-}
-.sidebar-item:hover {
-  background: rgba(29,111,240,0.1) !important;
-  color: #c5d4f0 !important;
-  border-color: rgba(29,111,240,0.2) !important;
-}
-.sidebar-item.active {
-  background: rgba(29,111,240,0.2) !important;
-  color: #4d9fff !important;
-  border-color: rgba(29,111,240,0.35) !important;
-  font-weight: 600 !important;
-  box-shadow: inset 3px 0 0 #1d6ff0 !important;
-}
-.sidebar-item svg { opacity: 0.8; }
-.sidebar-item.active svg { opacity: 1; }
-.sidebar-badge {
-  background: rgba(29,111,240,0.25) !important;
-  color: #4d9fff !important;
-  border: 1px solid rgba(29,111,240,0.4) !important;
-  border-radius: 5px !important;
-  font-size: 0.6rem !important;
-  padding: 2px 7px !important;
-}
-
-/* ── HERO BANNER — CMS STYLE ── */
-.hero-banner {
-  background:
-    radial-gradient(ellipse 90% 70% at 60% 20%, rgba(29,111,240,0.14) 0%, transparent 65%),
-    radial-gradient(ellipse 60% 50% at 20% 80%, rgba(13,30,70,0.5) 0%, transparent 60%),
-    linear-gradient(180deg, #0d1420 0%, #0d1117 100%) !important;
-  border-bottom: 1px solid rgba(99,131,185,0.12) !important;
-  min-height: 480px !important;
-  height: 60vh !important;
-}
-.hero-banner::before {
-  background: linear-gradient(to bottom, transparent 0%, transparent 30%, rgba(13,17,23,0.7) 75%, #0d1117 100%) !important;
-}
-.hero-banner::after {
-  opacity: 0.3 !important;
-}
-.hero-content { padding: 0 2rem 6% !important; }
-.hero-logo {
-  background: linear-gradient(135deg, #1d6ff0, #4d9fff) !important;
-  border-radius: 10px !important;
-  box-shadow: 0 4px 20px rgba(29,111,240,0.45) !important;
-}
-.hero-title {
-  font-family: 'Space Grotesk', sans-serif !important;
-  font-size: 2.6rem !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.03em !important;
-  color: #e2e8f5 !important;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.7) !important;
-  line-height: 1.15 !important;
-}
-.hero-subtitle {
-  font-size: 0.95rem !important;
-  color: #8b9ab5 !important;
-  max-width: 560px !important;
-  line-height: 1.7 !important;
-}
-.hero-badge {
-  background: rgba(29,111,240,0.2) !important;
-  border: 1px solid rgba(29,111,240,0.45) !important;
-  color: #4d9fff !important;
-  border-radius: 5px !important;
-  font-size: 0.62rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.1em !important;
-  padding: 3px 8px !important;
-}
-.hero-btn {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.875rem !important;
-  font-weight: 600 !important;
-  border-radius: 8px !important;
-  padding: 0.65rem 1.4rem !important;
-  letter-spacing: 0.01em !important;
-  text-transform: none !important;
-}
-.hero-btn-primary {
-  background: #1d6ff0 !important;
-  border: 1px solid #1d6ff0 !important;
-  box-shadow: 0 4px 16px rgba(29,111,240,0.4) !important;
-  color: #fff !important;
-}
-.hero-btn-primary:hover {
-  background: #4d9fff !important;
-  border-color: #4d9fff !important;
-  box-shadow: 0 6px 22px rgba(29,111,240,0.55) !important;
-  transform: translateY(-1px) !important;
-}
-.hero-btn-secondary {
-  background: rgba(22,27,39,0.85) !important;
-  border: 1px solid rgba(99,131,185,0.3) !important;
-  color: #c5d4f0 !important;
-  backdrop-filter: blur(8px) !important;
-}
-.hero-btn-secondary:hover {
-  background: rgba(29,111,240,0.15) !important;
-  border-color: rgba(29,111,240,0.4) !important;
-  transform: translateY(-1px) !important;
-}
-
-/* ── FILTER TABS — CMS PILL STYLE ── */
-.filter-tabs {
-  padding: 1rem 1.5rem !important;
-  gap: 0.5rem !important;
-  border-bottom: 1px solid rgba(99,131,185,0.08) !important;
-  background: rgba(15,20,32,0.6) !important;
-}
-.filter-tab {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.8rem !important;
-  font-weight: 600 !important;
-  border-radius: 6px !important;
-  padding: 0.4rem 0.9rem !important;
-  border: 1px solid rgba(99,131,185,0.18) !important;
-  background: rgba(22,27,39,0.7) !important;
-  color: #8b9ab5 !important;
-  letter-spacing: 0 !important;
-  text-transform: none !important;
-  transition: all 0.15s !important;
-}
-.filter-tab:hover {
-  background: rgba(29,111,240,0.12) !important;
-  border-color: rgba(29,111,240,0.35) !important;
-  color: #c5d4f0 !important;
-  transform: none !important;
-}
-.filter-tab.active {
-  background: #1d6ff0 !important;
-  border-color: #1d6ff0 !important;
-  color: #fff !important;
-  box-shadow: 0 2px 10px rgba(29,111,240,0.4) !important;
-  font-weight: 700 !important;
-}
-
-/* ── SECTION HEADERS ── */
-.section-header {
-  border-bottom: none !important;
-  padding: 1.5rem 1.5rem 0.75rem !important;
-  margin-bottom: 0 !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 1rem !important;
-}
-.section-title {
-  font-family: 'Space Grotesk', sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 700 !important;
-  color: #c5d4f0 !important;
-  letter-spacing: 0 !important;
-  text-transform: none !important;
-  position: relative !important;
-  padding-left: 0.85rem !important;
-}
-.section-title::before {
-  content: '' !important;
-  position: absolute !important;
-  left: 0 !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  width: 3px !important;
-  height: 1em !important;
-  background: linear-gradient(180deg, #1d6ff0, #4d9fff) !important;
-  border-radius: 2px !important;
-}
-.view-all {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.75rem !important;
-  font-weight: 600 !important;
-  color: #1d6ff0 !important;
-  border: 1px solid rgba(29,111,240,0.35) !important;
-  background: rgba(29,111,240,0.08) !important;
-  border-radius: 6px !important;
-  padding: 0.3rem 0.75rem !important;
-  letter-spacing: 0 !important;
-  text-transform: none !important;
-  transition: all 0.15s !important;
-  cursor: pointer !important;
-}
-.view-all:hover {
-  background: #1d6ff0 !important;
-  color: #fff !important;
-  border-color: #1d6ff0 !important;
-}
-
-/* ── VIDEO GRID ── */
-.video-grid {
-  padding: 1rem 1.5rem 2rem !important;
-  gap: 1rem !important;
-}
-
-/* ── VIDEO CARDS — CMS MEDIA CARD ── */
-.video-card {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.12) !important;
-  border-left: none !important;
-  border-radius: 10px !important;
-  overflow: hidden !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
-}
-.video-card:hover {
-  border-color: rgba(29,111,240,0.45) !important;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 0 1px rgba(29,111,240,0.25) !important;
-  transform: translateY(-3px) !important;
-  z-index: 10 !important;
-}
-.card-thumb {
-  border-radius: 0 !important;
-  position: relative !important;
-  overflow: hidden !important;
-}
-/* Blue shimmer on hover */
-.video-card:hover .card-thumb::after {
-  content: '' !important;
-  position: absolute !important;
-  inset: 0 !important;
-  background: linear-gradient(135deg, rgba(29,111,240,0.1), transparent 60%) !important;
-  border-radius: 0 !important;
-  pointer-events: none !important;
-}
-.card-badge {
-  border-radius: 4px !important;
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.62rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.06em !important;
-  text-transform: uppercase !important;
-  padding: 2px 6px !important;
-}
-.card-badge.new {
-  background: rgba(29,111,240,0.9) !important;
-  color: #fff !important;
-}
-.card-duration {
-  background: rgba(0,0,0,0.75) !important;
-  border-radius: 4px !important;
-  font-family: 'Space Grotesk', monospace !important;
-  font-size: 0.7rem !important;
-  font-weight: 600 !important;
-  border: none !important;
-}
-.card-info {
-  padding: 0.7rem 0.85rem !important;
-  background: #161b27 !important;
-}
-.card-title {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.85rem !important;
-  font-weight: 600 !important;
-  color: #c5d4f0 !important;
-  line-height: 1.4 !important;
-}
-.card-meta {
-  font-size: 0.72rem !important;
-  color: #4a5568 !important;
-  letter-spacing: 0 !important;
-}
-.card-kr {
-  font-size: 0.72rem !important;
-  color: #6b7a96 !important;
-}
-
-/* ── SEARCH OVERLAY ── */
-.search-overlay {
-  background: rgba(13,17,23,0.97) !important;
-  backdrop-filter: blur(24px) !important;
-}
-.search-header {
-  background: rgba(15,20,32,0.95) !important;
-  border-bottom: 1px solid rgba(99,131,185,0.15) !important;
-}
-.search-header input {
-  background: rgba(22,27,39,0.9) !important;
-  border: 1px solid rgba(99,131,185,0.2) !important;
-  border-radius: 8px !important;
-  color: #e2e8f5 !important;
-}
-.search-header input:focus {
-  border-color: #1d6ff0 !important;
-  box-shadow: 0 0 0 3px rgba(29,111,240,0.15) !important;
-}
-.search-filter {
-  background: rgba(22,27,39,0.7) !important;
-  border: 1px solid rgba(99,131,185,0.18) !important;
-  border-radius: 6px !important;
-  color: #8b9ab5 !important;
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.78rem !important;
-  font-weight: 600 !important;
-}
-.search-filter.active {
-  background: #1d6ff0 !important;
-  border-color: #1d6ff0 !important;
-  color: #fff !important;
-}
-.search-result:hover {
-  background: rgba(22,27,39,0.8) !important;
-  border-radius: 8px !important;
-}
-
-/* ── CHANNEL CARDS ── */
-.channel-card {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.12) !important;
-  border-radius: 10px !important;
-}
-.channel-card:hover {
-  border-color: rgba(29,111,240,0.45) !important;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 1px rgba(29,111,240,0.2) !important;
-  transform: translateY(-2px) scale(1.02) !important;
-}
-.channel-badge.live {
-  background: rgba(29,111,240,0.85) !important;
-}
-
-/* ── PROFILE MENU ── */
-.profile-menu {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.18) !important;
-  border-radius: 10px !important;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.6) !important;
-}
-.profile-header {
-  border-bottom: 1px solid rgba(99,131,185,0.12) !important;
-}
-.profile-avatar {
-  background: linear-gradient(135deg, #1d6ff0, #4d9fff) !important;
-  font-family: 'Space Grotesk', sans-serif !important;
-  font-weight: 700 !important;
-}
-.profile-item:hover {
-  background: rgba(29,111,240,0.1) !important;
-  border-radius: 7px !important;
-  color: #c5d4f0 !important;
-}
-
-/* ── MODALS ── */
-.modal-content {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.18) !important;
-  border-radius: 12px !important;
-  border-top: 2px solid #1d6ff0 !important;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.7) !important;
-}
-.modal-header {
-  border-bottom: 1px solid rgba(99,131,185,0.12) !important;
-}
-.modal-footer {
-  border-top: 1px solid rgba(99,131,185,0.12) !important;
-}
-.modal-btn {
-  background: rgba(22,27,39,0.9) !important;
-  border: 1px solid rgba(99,131,185,0.2) !important;
-  border-radius: 8px !important;
-  color: #8b9ab5 !important;
-}
-.modal-btn.primary {
-  background: #1d6ff0 !important;
-  border-color: #1d6ff0 !important;
-  color: #fff !important;
-  box-shadow: 0 4px 14px rgba(29,111,240,0.4) !important;
-}
-
-/* ── SETTINGS PAGE ── */
-.settings-item {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.12) !important;
-  border-radius: 10px !important;
-  transition: border-color 0.15s !important;
-}
-.settings-item:hover {
-  border-color: rgba(29,111,240,0.3) !important;
-  background: rgba(22,35,58,0.8) !important;
-}
-.settings-select {
-  background: rgba(22,27,39,0.9) !important;
-  border: 1px solid rgba(99,131,185,0.2) !important;
-  border-radius: 7px !important;
-  color: #e2e8f5 !important;
-}
-.settings-select:focus {
-  border-color: #1d6ff0 !important;
-}
-
-/* ── FAQ ITEMS ── */
-.faq-item {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.1) !important;
-  border-radius: 8px !important;
-}
-.faq-item:hover, .faq-item.open {
-  background: #1c2336 !important;
-  border-color: rgba(29,111,240,0.25) !important;
-}
-.faq-search input {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.18) !important;
-  border-radius: 8px !important;
-  color: #e2e8f5 !important;
-}
-.faq-search input:focus {
-  border-color: #1d6ff0 !important;
-  box-shadow: 0 0 0 3px rgba(29,111,240,0.15) !important;
-}
-
-/* ── TOAST ── */
-.toast {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.2) !important;
-  border-left: 3px solid #1d6ff0 !important;
-  border-radius: 8px !important;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.5) !important;
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.85rem !important;
-}
-
-/* ── NOTICE BANNER ── */
-.notice-banner {
-  background: linear-gradient(90deg, #0f2057, #1d6ff0) !important;
-  border-bottom: 1px solid rgba(29,111,240,0.4) !important;
-}
-.notice-text {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.82rem !important;
-  font-weight: 500 !important;
-  letter-spacing: 0 !important;
-  text-transform: none !important;
-}
-
-/* ── LIVE BADGE / DOT ── */
-.live-dot, .radio-live-dot {
-  background: #4d9fff !important;
-  box-shadow: 0 0 0 0 rgba(77,159,255,0.6) !important;
-}
-.live-badge-pill {
-  color: #4d9fff !important;
-  border-color: rgba(77,159,255,0.4) !important;
-  background: rgba(29,111,240,0.1) !important;
-}
-.channel-badge.live, .badge-tv {
-  background: rgba(29,111,240,0.18) !important;
-  color: #4d9fff !important;
-  border-color: rgba(29,111,240,0.3) !important;
-}
-
-/* ── LOADING SCREEN ── */
-.loading {
-  background: #0d1117 !important;
-}
-.loading-logo {
-  font-family: 'Space Grotesk', sans-serif !important;
-  font-weight: 800 !important;
-  color: #e2e8f5 !important;
-  letter-spacing: -0.02em !important;
-}
-.loading-logo span { color: #4d9fff !important; }
-.loading-spinner {
-  background: conic-gradient(#1d6ff0 0%, transparent 65%) !important;
-}
-
-/* ── WATCHLIST & EMPTY STATES ── */
-.watchlist-thumb {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.12) !important;
-  border-radius: 8px !important;
-}
-.watchlist-remove:hover {
-  background: #1d6ff0 !important;
-}
-.empty-state-icon { color: #4a5568 !important; }
-
-/* ── SCROLL TO TOP ── */
-.scroll-top {
-  background: linear-gradient(135deg, #1d6ff0, #4d9fff) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 14px rgba(29,111,240,0.45) !important;
-}
-
-/* ── SOURCE MODAL ── */
-#sourceModal > div {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.18) !important;
-  border-radius: 14px !important;
-}
-
-/* ── COMMUNITY SECTION ── */
-.community-section {
-  background: linear-gradient(135deg, rgba(15,32,87,0.4), rgba(22,27,39,0.6)) !important;
-  border: 1px solid rgba(29,111,240,0.2) !important;
-  border-radius: 12px !important;
-  margin: 1rem 1.5rem !important;
-}
-
-/* ── SIGNAL CARDS ── */
-.signal-card {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.12) !important;
-  border-radius: 12px !important;
-}
-.signal-card:hover {
-  border-color: rgba(29,111,240,0.4) !important;
-  box-shadow: 0 8px 24px rgba(29,111,240,0.15) !important;
-}
-.signal-card:hover .signal-arrow {
-  background: #1d6ff0 !important;
-  border-color: #1d6ff0 !important;
-}
-.signal-icon-wrap {
-  background: rgba(29,111,240,0.12) !important;
-  border-color: rgba(29,111,240,0.2) !important;
-}
-
-/* ── VIDEO.JS PLAYER ── */
-.vjs-big-play-button {
-  background: rgba(29,111,240,0.9) !important;
-}
-.vjs-big-play-button:hover {
-  background: #1d6ff0 !important;
-}
-.vjs-play-progress, .vjs-volume-level {
-  background: #1d6ff0 !important;
-}
-.vjs-menu li.vjs-selected {
-  background: #1d6ff0 !important;
-}
-.vjs-time-tooltip {
-  background: #1d6ff0 !important;
-}
-
-/* ── RADIO CARD ── */
-.radio-card {
-  background: linear-gradient(145deg, rgba(12,22,52,0.97), rgba(9,15,35,0.99)) !important;
-  border: 1px solid rgba(29,111,240,0.2) !important;
-}
-.radio-btn {
-  background: linear-gradient(135deg, #1d6ff0, #4d9fff) !important;
-  box-shadow: 0 4px 16px rgba(29,111,240,0.45) !important;
-}
-.radio-disc {
-  border-color: rgba(29,111,240,0.35) !important;
-  box-shadow: 0 0 36px rgba(29,111,240,0.2), inset 0 0 20px rgba(0,0,0,0.8) !important;
-}
-.radio-disc-inner {
-  border-color: rgba(29,111,240,0.45) !important;
-}
-.radio-disc-letter { color: #4d9fff !important; }
-.radio-volume::-webkit-slider-thumb { background: #1d6ff0 !important; }
-
-/* ── SUBSCRIBE PAGE ── */
-.sub-hero {
-  background: linear-gradient(160deg, #060e22 0%, #0d1117 60%) !important;
-}
-.sub-cta-btn {
-  background: #1d6ff0 !important;
-  box-shadow: 0 6px 24px rgba(29,111,240,0.45) !important;
-}
-.sub-cta-btn:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 10px 32px rgba(29,111,240,0.55) !important;
-}
-.sub-stat-num { color: #4d9fff !important; }
-.sub-feat-card, .sub-stat, .sub-manifesto {
-  background: #161b27 !important;
-  border-color: rgba(99,131,185,0.12) !important;
-}
-.sub-final-cta {
-  background: linear-gradient(135deg, #1044b5, #1d6ff0) !important;
-}
-.sub-final-cta a { color: #1d6ff0 !important; }
-
-/* ── TOS SCREEN ── */
-#tos-screen { background: #080d16 !important; }
-#tos-screen::before {
-  background-image:
-    linear-gradient(rgba(29,111,240,.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(29,111,240,.05) 1px, transparent 1px) !important;
-}
-
-/* ── SHORTCUT KEYS ── */
-.shortcut-key {
-  background: rgba(22,27,39,0.9) !important;
-  border: 1px solid rgba(99,131,185,0.2) !important;
-  color: #4d9fff !important;
-  font-family: 'Space Grotesk', monospace !important;
-}
-
-/* ── FOOTER ── */
-.footer {
-  background: #0f1420 !important;
-  border-top: 1px solid rgba(99,131,185,0.1) !important;
-}
-.footer-links a:hover {
-  color: #4d9fff !important;
-  background: rgba(29,111,240,0.08) !important;
-}
-
-/* ── SCROLLBAR (CMS STYLE) ── */
-::-webkit-scrollbar { width: 5px !important; }
-::-webkit-scrollbar-track { background: #0d1117 !important; }
-::-webkit-scrollbar-thumb { background: rgba(29,111,240,0.35) !important; border-radius: 3px !important; }
-::-webkit-scrollbar-thumb:hover { background: #1d6ff0 !important; }
-
-/* ── COMING SOON NOTICE ── */
-.coming-soon-notice {
-  background: rgba(29,111,240,0.07) !important;
-  border: 1px solid rgba(29,111,240,0.2) !important;
-}
-.coming-soon-notice h4 { color: #4d9fff !important; }
-
-/* ── THEME SWATCHES ── */
-.theme-swatch.active-theme {
-  box-shadow: 0 0 0 3px #0d1117, 0 0 0 5px #1d6ff0 !important;
-}
-
-/* ── SORT TOGGLE BTN ── */
-#sortToggleBtn {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.18) !important;
-  color: #8b9ab5 !important;
-  border-radius: 7px !important;
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 0.75rem !important;
-  font-weight: 600 !important;
-}
-#sortToggleBtn:hover {
-  background: rgba(29,111,240,0.12) !important;
-  border-color: rgba(29,111,240,0.3) !important;
-  color: #4d9fff !important;
-}
-
-/* ── BPTV SECTION TOPBAR ── */
-.bptv-topbar {
-  background: linear-gradient(90deg, #0f2057, #1d6ff0, #4d9fff) !important;
-}
-
-/* ── CONTINUE WATCHING ── */
-.continue-card {
-  background: #161b27 !important;
-  border: 1px solid rgba(99,131,185,0.12) !important;
-  border-radius: 10px !important;
-}
-
-/* Accent: progress bar within continue card */
-.continue-progress-fill {
-  background: linear-gradient(90deg, #1d6ff0, #4d9fff) !important;
-}
-
-/* ── MOBILE RESPONSIVE ── */
-@media (max-width: 768px) {
-  .hero-title { font-size: 1.8rem !important; }
-  .video-grid { padding: 0.75rem 0.85rem 2rem !important; gap: 0.75rem !important; }
-  .section-header { padding: 1.25rem 0.85rem 0.5rem !important; }
-  .filter-tabs { padding: 0.75rem 0.85rem !important; }
-}
-
-/* ── SPLASH SCREEN ── */
-#bf-splash {
-  background: #0d1117 !important;
-}
-#bf-splash-logo {
-  font-family: 'Space Grotesk', sans-serif !important;
-  color: #e2e8f5 !important;
-}
-#bf-splash-logo span { color: #4d9fff !important; }
+::-webkit-scrollbar-thumb:hover { background: #e8263a; }
 </style>
 </head>
 <body>
@@ -3615,8 +2814,8 @@ body::before {
 #tos-screen::before{
   content:'';position:absolute;inset:0;
   background-image:
-    linear-gradient(rgba(26,127,255,.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(26,127,255,.06) 1px, transparent 1px);
+    linear-gradient(rgba(232,38,58,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(232,38,58,.06) 1px, transparent 1px);
   background-size:40px 40px;
   animation:gridMove 20s linear infinite;
 }
@@ -3644,7 +2843,7 @@ body::before {
   position:absolute;border-radius:50%;pointer-events:none;z-index:0;
   filter:blur(80px);animation:orbPulse 4s ease-in-out infinite;
 }
-.tos-orb-1{width:300px;height:300px;background:rgba(26,127,255,.12);top:-80px;right:-60px;}
+.tos-orb-1{width:300px;height:300px;background:rgba(232,38,58,.12);top:-80px;right:-60px;}
 .tos-orb-2{width:200px;height:200px;background:rgba(201,168,76,.08);bottom:-40px;left:-40px;animation-delay:2s;}
 @keyframes orbPulse{0%,100%{opacity:.6;}50%{opacity:1;}}
 
@@ -3653,12 +2852,12 @@ body::before {
   font-size:2rem;font-weight:900;letter-spacing:4px;
   color:#fff;margin-bottom:2rem;
   font-family:'JetBrains Mono',monospace;
-  text-shadow:0 0 30px rgba(26,127,255,.6), 0 0 60px rgba(26,127,255,.3);
+  text-shadow:0 0 30px rgba(232,38,58,.6), 0 0 60px rgba(232,38,58,.3);
 }
-.tos-logo span{color:var(--red,#1a7fff);}
+.tos-logo span{color:var(--red,#e8263a);}
 .tos-logo-line{
   display:block;width:100%;height:1px;
-  background:linear-gradient(90deg,transparent,var(--red,#1a7fff),transparent);
+  background:linear-gradient(90deg,transparent,var(--red,#e8263a),transparent);
   margin-top:.4rem;animation:linePulse 2s ease-in-out infinite;
 }
 @keyframes linePulse{0%,100%{opacity:.4;}50%{opacity:1;}}
@@ -3666,15 +2865,15 @@ body::before {
 .tos-card{
   position:relative;z-index:3;
   background:rgba(6,8,14,.85);
-  border:1px solid rgba(26,127,255,.25);
+  border:1px solid rgba(232,38,58,.25);
   border-radius:4px;
   padding:2rem 1.75rem;
   max-width:440px;width:100%;
   text-align:center;
   backdrop-filter:blur(24px);
   box-shadow:
-    0 0 0 1px rgba(26,127,255,.08),
-    0 0 60px rgba(26,127,255,.1),
+    0 0 0 1px rgba(232,38,58,.08),
+    0 0 60px rgba(232,38,58,.1),
     0 32px 80px rgba(0,0,0,.8);
   clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
   animation:cardAppear .6s cubic-bezier(.22,1,.36,1) both;
@@ -3685,27 +2884,27 @@ body::before {
 .tos-status-bar{
   display:flex;align-items:center;gap:.5rem;justify-content:center;
   margin-bottom:1.5rem;padding-bottom:1rem;
-  border-bottom:1px solid rgba(26,127,255,.12);
+  border-bottom:1px solid rgba(232,38,58,.12);
 }
-.tos-status-dot{width:8px;height:8px;border-radius:50%;background:var(--red,#1a7fff);animation:blink .8s step-end infinite;}
+.tos-status-dot{width:8px;height:8px;border-radius:50%;background:var(--red,#e8263a);animation:blink .8s step-end infinite;}
 .tos-status-dot.yellow{background:#c9a84c;animation-delay:.3s;}
 .tos-status-dot.green{background:#4caf50;animation-delay:.6s;}
 @keyframes blink{0%,100%{opacity:1;}50%{opacity:.2;}}
-.tos-status-text{font-size:.65rem;letter-spacing:2px;color:rgba(26,127,255,.7);font-family:'JetBrains Mono',monospace;text-transform:uppercase;}
+.tos-status-text{font-size:.65rem;letter-spacing:2px;color:rgba(232,38,58,.7);font-family:'JetBrains Mono',monospace;text-transform:uppercase;}
 
 .tos-icon-wrap{
   width:60px;height:60px;margin:0 auto 1rem;
-  border:1px solid rgba(26,127,255,.3);
-  background:rgba(26,127,255,.06);
+  border:1px solid rgba(232,38,58,.3);
+  background:rgba(232,38,58,.06);
   display:flex;align-items:center;justify-content:center;
   position:relative;
   clip-path:polygon(10px 0%,100% 0%,100% calc(100% - 10px),calc(100% - 10px) 100%,0% 100%,0% 10px);
 }
 .tos-icon-wrap::before{
   content:'';position:absolute;inset:0;
-  background:linear-gradient(135deg,rgba(26,127,255,.15),transparent);
+  background:linear-gradient(135deg,rgba(232,38,58,.15),transparent);
 }
-.tos-icon-wrap svg{fill:var(--red,#1a7fff);position:relative;z-index:1;}
+.tos-icon-wrap svg{fill:var(--red,#e8263a);position:relative;z-index:1;}
 
 .tos-title{
   font-size:1rem;font-weight:700;color:#fff;
@@ -3726,13 +2925,13 @@ body::before {
   border:1px solid rgba(255,255,255,.05);
   border-radius:2px;
 }
-.tos-body a{color:var(--red,#1a7fff);text-decoration:none;font-weight:600;}
+.tos-body a{color:var(--red,#e8263a);text-decoration:none;font-weight:600;}
 .tos-body a:hover{text-decoration:underline;}
 
 .tos-agree-btn{
   width:100%;padding:.85rem 1.5rem;
   background:transparent;
-  border:1px solid var(--red,#1a7fff);
+  border:1px solid var(--red,#e8263a);
   color:#fff;font-size:.85rem;font-weight:700;
   cursor:pointer;
   letter-spacing:2px;text-transform:uppercase;
@@ -3743,12 +2942,12 @@ body::before {
 }
 .tos-agree-btn::before{
   content:'';position:absolute;inset:0;
-  background:linear-gradient(135deg,var(--red,#1a7fff),#003d99);
+  background:linear-gradient(135deg,var(--red,#e8263a),#8b0000);
   opacity:0;transition:opacity .3s;
 }
 .tos-agree-btn:hover::before{opacity:1;}
 .tos-agree-btn span{position:relative;z-index:1;}
-.tos-agree-btn:hover{box-shadow:0 0 30px rgba(26,127,255,.4);letter-spacing:3px;}
+.tos-agree-btn:hover{box-shadow:0 0 30px rgba(232,38,58,.4);letter-spacing:3px;}
 .tos-agree-btn:active{transform:scale(.98);}
 
 .tos-note{
@@ -3767,10 +2966,10 @@ body::before {
   <div class="tos-orb tos-orb-1"></div>
   <div class="tos-orb tos-orb-2"></div>
   <!-- Corner brackets -->
-  <div class="tos-corner tos-corner-tl"><svg viewBox="0 0 60 60" fill="none"><path d="M0 40 L0 0 L40 0" stroke="rgba(26,127,255,.4)" stroke-width="1.5"/><path d="M0 40 L0 0 L40 0" stroke="rgba(26,127,255,.15)" stroke-width="8"/></svg></div>
-  <div class="tos-corner tos-corner-tr"><svg viewBox="0 0 60 60" fill="none"><path d="M0 40 L0 0 L40 0" stroke="rgba(26,127,255,.4)" stroke-width="1.5"/><path d="M0 40 L0 0 L40 0" stroke="rgba(26,127,255,.15)" stroke-width="8"/></svg></div>
-  <div class="tos-corner tos-corner-bl"><svg viewBox="0 0 60 60" fill="none"><path d="M0 40 L0 0 L40 0" stroke="rgba(26,127,255,.4)" stroke-width="1.5"/><path d="M0 40 L0 0 L40 0" stroke="rgba(26,127,255,.15)" stroke-width="8"/></svg></div>
-  <div class="tos-corner tos-corner-br"><svg viewBox="0 0 60 60" fill="none"><path d="M0 40 L0 0 L40 0" stroke="rgba(26,127,255,.4)" stroke-width="1.5"/><path d="M0 40 L0 0 L40 0" stroke="rgba(26,127,255,.15)" stroke-width="8"/></svg></div>
+  <div class="tos-corner tos-corner-tl"><svg viewBox="0 0 60 60" fill="none"><path d="M0 40 L0 0 L40 0" stroke="rgba(232,38,58,.4)" stroke-width="1.5"/><path d="M0 40 L0 0 L40 0" stroke="rgba(232,38,58,.15)" stroke-width="8"/></svg></div>
+  <div class="tos-corner tos-corner-tr"><svg viewBox="0 0 60 60" fill="none"><path d="M0 40 L0 0 L40 0" stroke="rgba(232,38,58,.4)" stroke-width="1.5"/><path d="M0 40 L0 0 L40 0" stroke="rgba(232,38,58,.15)" stroke-width="8"/></svg></div>
+  <div class="tos-corner tos-corner-bl"><svg viewBox="0 0 60 60" fill="none"><path d="M0 40 L0 0 L40 0" stroke="rgba(232,38,58,.4)" stroke-width="1.5"/><path d="M0 40 L0 0 L40 0" stroke="rgba(232,38,58,.15)" stroke-width="8"/></svg></div>
+  <div class="tos-corner tos-corner-br"><svg viewBox="0 0 60 60" fill="none"><path d="M0 40 L0 0 L40 0" stroke="rgba(232,38,58,.4)" stroke-width="1.5"/><path d="M0 40 L0 0 L40 0" stroke="rgba(232,38,58,.15)" stroke-width="8"/></svg></div>
   <!-- Logo -->
   <div class="tos-logo">BLOXY<span>FLIX</span><span class="tos-logo-line"></span></div>
   <!-- Card -->
@@ -3791,7 +2990,7 @@ body::before {
       <a href="#" onclick="event.preventDefault();acceptTos();setTimeout(()=>showPage('terms'),100);">Terms of Service</a>
       and
       <a href="#" onclick="event.preventDefault();acceptTos();setTimeout(()=>showPage('privacy'),100);">Privacy Policy</a>.<br><br>
-      BloxyFlix is a free digital archive of historical media, news broadcasts, and cultural productions. All content is provided strictly for research, educational, and historical documentation purposes.
+      BloxyFlix is a free educational archive of North Korean cinema and broadcasts. All content is provided for research and cultural awareness purposes only.
     </div>
     <button class="tos-agree-btn" onclick="acceptTos()"><span>[ AUTHORIZE ACCESS ]</span></button>
     <div class="tos-note">// By proceeding you confirm compliance with applicable laws and regulations in your jurisdiction.</div>
@@ -3901,7 +3100,7 @@ body::before {
       <span>TV Channels</span>
       <span class="sidebar-badge">50+</span>
     </a>
-    <a class="sidebar-item sidebar-subscribe-btn" onclick="showPage('subscribe');toggleSidebar();" style="margin-top:.25rem;background:linear-gradient(135deg,rgba(26,127,255,0.15),rgba(180,0,0,0.08));border:1px solid rgba(26,127,255,0.25);border-radius:0 25px 25px 0;margin-right:.5rem;">
+    <a class="sidebar-item sidebar-subscribe-btn" onclick="showPage('subscribe');toggleSidebar();" style="margin-top:.25rem;background:linear-gradient(135deg,rgba(255,0,0,0.15),rgba(180,0,0,0.08));border:1px solid rgba(255,0,0,0.25);border-radius:0 25px 25px 0;margin-right:.5rem;">
       <svg viewBox="0 0 24 24" fill="currentColor" style="width:22px;height:22px;"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
       <span style="font-weight:700;">Bloxy Play TV</span>
       <span class="sidebar-badge" style="margin-left:auto;animation:subscribePulse 2s ease-in-out infinite;">SUB</span>
@@ -4041,8 +3240,8 @@ body::before {
         <div class="hero-logo">
           <svg><use href="#icon-play"/></svg>
         </div>
-        <h1 class="hero-title">조선 미디어<br>Historical Archive</h1>
-        <p class="hero-subtitle">A curated digital repository of historical films, documentary records, news broadcasts, and cultural performances — maintained for academic research, historical scholarship, and cross-cultural study.</p>
+        <h1 class="hero-title">조선영화<br>DPRK Cinema</h1>
+        <p class="hero-subtitle">★ EDUCATIONAL ARCHIVE ★ Films, performances, documentaries & live broadcasts from the DPRK — preserved for research and cultural understanding.</p>
         <div class="hero-meta">
           <span class="hero-badge">EDUCATIONAL</span>
           <span><svg width="16" height="16"><use href="#icon-tv"/></svg> <span id="videoCount">50+</span> Videos</span>
@@ -4136,7 +3335,7 @@ body::before {
       </div>
       <div class="community-coming-soon">
         <h3>Coming Soon!</h3>
-        <p>Engage with fellow researchers and archive contributors. Community features are currently under development.</p>
+        <p>Join discussions, share your thoughts, and connect with other North Korean cinema enthusiasts. Our community features are under development.</p>
       </div>
     </div>
 
@@ -4177,8 +3376,8 @@ body::before {
     .bptv-card::before{
       content:'';position:absolute;inset:0;
       background:
-        radial-gradient(ellipse 70% 55% at 85% 10%, rgba(26,127,255,0.09) 0%, transparent 60%),
-        radial-gradient(ellipse 50% 40% at 10% 90%, rgba(26,127,255,0.05) 0%, transparent 55%);
+        radial-gradient(ellipse 70% 55% at 85% 10%, rgba(255,0,0,0.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 10% 90%, rgba(255,0,0,0.05) 0%, transparent 55%);
       pointer-events:none;z-index:0;
     }
     /* Subtle scan-line texture */
@@ -4198,7 +3397,7 @@ body::before {
     .bptv-topbar{
       position:relative;z-index:1;
       height:3px;
-      background:linear-gradient(90deg, #003d99 0%, #1a7fff 45%, #1a7fff 100%);
+      background:linear-gradient(90deg, #8b0000 0%, #ff0000 45%, #e8263a 100%);
     }
 
     .bptv-body{
@@ -4218,8 +3417,8 @@ body::before {
       width:52px;height:52px;flex-shrink:0;
       border-radius:50%;
       padding:2px;
-      background:linear-gradient(135deg,#1a7fff,#003d99);
-      box-shadow:0 0 0 1px rgba(26,127,255,0.2), 0 4px 16px rgba(26,127,255,0.2);
+      background:linear-gradient(135deg,#ff0000,#8b0000);
+      box-shadow:0 0 0 1px rgba(255,0,0,0.2), 0 4px 16px rgba(255,0,0,0.2);
     }
     .bptv-avatar-inner{
       width:100%;height:100%;border-radius:50%;
@@ -4244,7 +3443,7 @@ body::before {
     .bptv-verified{
       display:inline-flex;align-items:center;justify-content:center;
       width:14px;height:14px;border-radius:50%;
-      background:#1a7fff;flex-shrink:0;
+      background:#ff0000;flex-shrink:0;
     }
     .bptv-verified svg{width:8px;height:8px;fill:#fff;}
 
@@ -4272,7 +3471,7 @@ body::before {
     }
     .bptv-desc-title{
       font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
-      color:rgba(26,127,255,0.7);margin-bottom:.6rem;
+      color:rgba(255,0,0,0.7);margin-bottom:.6rem;
     }
     .bptv-desc-text{
       font-size:.88rem;line-height:1.8;color:rgba(255,255,255,0.52);
@@ -4293,8 +3492,8 @@ body::before {
     .bptv-feature-icon{
       width:28px;height:28px;flex-shrink:0;
       border-radius:8px;
-      background:rgba(26,127,255,0.1);
-      border:1px solid rgba(26,127,255,0.18);
+      background:rgba(255,0,0,0.1);
+      border:1px solid rgba(255,0,0,0.18);
       display:flex;align-items:center;justify-content:center;
     }
     .bptv-feature-icon svg{width:14px;height:14px;fill:rgba(255,80,80,0.85);}
@@ -4318,14 +3517,14 @@ body::before {
       color:#fff;font-size:.92rem;font-weight:800;
       padding:.85rem 1.5rem;border-radius:13px;
       text-decoration:none;letter-spacing:.01em;
-      box-shadow:0 6px 24px rgba(26,127,255,0.3), 0 1px 0 rgba(255,255,255,0.12) inset;
+      box-shadow:0 6px 24px rgba(255,0,0,0.3), 0 1px 0 rgba(255,255,255,0.12) inset;
       transition:transform .18s ease, box-shadow .18s ease;
       border:none;cursor:pointer;
     }
     .bptv-subscribe-cta svg{width:18px;height:18px;fill:#fff;flex-shrink:0;}
     .bptv-subscribe-cta:hover{
       transform:translateY(-2px);
-      box-shadow:0 12px 36px rgba(26,127,255,0.42), 0 1px 0 rgba(255,255,255,0.15) inset;
+      box-shadow:0 12px 36px rgba(255,0,0,0.42), 0 1px 0 rgba(255,255,255,0.15) inset;
     }
     .bptv-subscribe-cta:active{transform:translateY(0);}
 
@@ -4362,8 +3561,8 @@ body::before {
                     <circle cx="18" cy="12" r="3.5" fill="#4f8ef7"/>
                     <path d="M11 22 Q16 28 21 22" stroke="#4f8ef7" stroke-width="1.5" fill="none" stroke-linecap="round"/>
                     <circle cx="17" cy="11" r="1.2" fill="#fff" opacity=".8"/>
-                    <rect x="8" y="26" width="16" height="2.5" rx="1.25" fill="#1a7fff"/>
-                    <polygon points="13,27 16,24.5 19,27" fill="#1a7fff"/>
+                    <rect x="8" y="26" width="16" height="2.5" rx="1.25" fill="#ff0000"/>
+                    <polygon points="13,27 16,24.5 19,27" fill="#ff0000"/>
                   </svg>
                 </div>
               </div>
@@ -4520,8 +3719,8 @@ body::before {
             <div class="settings-item-desc">Choose your colour scheme</div>
           </div>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;width:100%;">
-            <button onclick="setTheme('classic')" id="theme-classic" class="theme-swatch" style="background:linear-gradient(135deg,#0a0a0a,#030c1a);border:2px solid #1a7fff;">
-              <span style="color:#1a7fff;font-size:.6rem;font-weight:700;">Classic</span>
+            <button onclick="setTheme('classic')" id="theme-classic" class="theme-swatch" style="background:linear-gradient(135deg,#0a0a0a,#1a0000);border:2px solid #ff0000;">
+              <span style="color:#ff0000;font-size:.6rem;font-weight:700;">Classic</span>
             </button>
             <button onclick="setTheme('midnight')" id="theme-midnight" class="theme-swatch" style="background:linear-gradient(135deg,#050a1a,#0c1844);border:2px solid #4f8ef7;">
               <span style="color:#4f8ef7;font-size:.6rem;font-weight:700;">Midnight</span>
@@ -4755,15 +3954,15 @@ body::before {
 
       <div class="info-content">
         <div class="highlight-box">
-          <p><strong>BloxyFlix</strong> is a free, independent digital archive dedicated to the preservation and scholarly accessibility of historical cinema, official news broadcasts, cultural performances, and live media. Our mission is to ensure that significant audiovisual records remain accessible to researchers, educators, and the public worldwide.</p>
+          <p><strong>BloxyFlix</strong> is a free educational digital archive dedicated to preserving and providing access to North Korean cinema, cultural performances, documentaries, and live broadcasts. Our mission is to make these important cultural artifacts available for educational and research purposes worldwide.</p>
         </div>
 
         <h2>Our Mission</h2>
-        <p>We are committed to the responsible preservation of historical media. These audiovisual records constitute an important and frequently underrepresented component of global broadcast and cinematic history. By maintaining an organised, accessible repository, we seek to:</p>
+        <p>We believe in the power of cultural exchange and understanding. North Korean cinema and media represent a unique and often underexplored aspect of global film history. By providing accessible, organized access to this content, we aim to:</p>
         <ul>
           <li>Support academic research into North Korean media, culture, and society</li>
           <li>Preserve cultural content that might otherwise be lost or difficult to access</li>
-          <li>Facilitate cross-cultural understanding through open media access</li>
+          <li>Foster greater cross-cultural understanding through media accessibility</li>
           <li>Provide a resource for educators, students, and researchers worldwide</li>
         </ul>
 
@@ -4965,7 +4164,7 @@ body::before {
         </div>
 
         <h2>1. About BloxyFlix</h2>
-        <p>BloxyFlix is a free digital archive operated by <strong>Bloxy Play Technology &amp; Blocky Studio Company Limited</strong>. We provide public access to historical cinema, official news broadcasts, cultural performances, and related audiovisual materials for educational, research, and documentary purposes.</p>
+        <p>BloxyFlix is a free educational digital archive operated by <strong>Bloxy Play Technology &amp; Blocky Studio Company Limited</strong>. We provide access to North Korean cinema, news broadcasts, cultural performances, and related media for educational, research, and cultural awareness purposes.</p>
         <p>Our mission is to preserve and make accessible cultural content that might otherwise be difficult to access, fostering greater understanding and academic research into North Korean media and culture.</p>
 
         <h2>2. Acceptance of Terms</h2>
@@ -5068,7 +4267,7 @@ body::before {
 
         <div class="faq-item" onclick="toggleFaq(this)">
           <div class="faq-question">What is BloxyFlix?<svg class="faq-chevron" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
-          <div class="faq-answer"><div class="faq-answer-inner">BloxyFlix is a free, permanently accessible digital archive dedicated to historical cinema, documentary productions, cultural performances, live broadcasts, and international television. It is operated by the Bloxy Play Team and draws exclusively from publicly available archival sources.</div></div>
+          <div class="faq-answer"><div class="faq-answer-inner">BloxyFlix is a free, forever educational streaming service dedicated to North Korean cinema, cultural performances, documentaries, live television, and international TV channels. It is operated by the Bloxy Play Team and sourced from publicly available archives.</div></div>
         </div>
 
         <div class="faq-item" onclick="toggleFaq(this)">
@@ -5308,7 +4507,7 @@ body::before {
       <!-- Manifesto -->
       <div class="sub-section-title">Two Sources. One Honest Operation.</div>
       <div class="sub-manifesto">
-        <p><strong>The films and feature productions on BloxyFlix</strong> are sourced from the <strong>Koryo TV Archives</strong> — a dedicated repository of historical cinema. We host them here to ensure discoverability and reliable access. Full attribution to Koryo TV.</p>
+        <p><strong>The films and movies on BloxyFlix</strong> come from the <strong>Koryo TV Archives</strong> — a dedicated North Korean cinema archive. We host them here so they're actually findable and watchable. Full credit to Koryo TV.</p>
         <p><strong>Bloxy Play TV on YouTube is different.</strong> Every video on our channel is recorded live, directly off our own official satellite dish. Real broadcasts. Direct captures. Nothing reposted from someone else's feed.</p>
         <p>We didn't invent the content — we built the infrastructure to bring it to you. Two sources, clearly labelled, always credited. <strong>That's how we operate.</strong></p>
       </div>
@@ -5346,8 +4545,8 @@ body::before {
       </div>
       <div style="display:flex;flex-direction:column;gap:.75rem;margin-bottom:1.5rem;">
 
-        <div style="background:linear-gradient(135deg,rgba(26,127,255,0.08),rgba(26,127,255,0.03));border:1px solid rgba(26,127,255,0.2);border-radius:16px;padding:1.1rem 1.25rem;display:flex;align-items:center;gap:1rem;">
-          <div style="width:42px;height:42px;min-width:42px;background:rgba(26,127,255,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;">📺</div>
+        <div style="background:linear-gradient(135deg,rgba(255,0,0,0.08),rgba(255,0,0,0.03));border:1px solid rgba(255,0,0,0.2);border-radius:16px;padding:1.1rem 1.25rem;display:flex;align-items:center;gap:1rem;">
+          <div style="width:42px;height:42px;min-width:42px;background:rgba(255,0,0,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;">📺</div>
           <div>
             <div style="font-size:.88rem;font-weight:700;color:#fff;margin-bottom:.2rem;">Korean Central Television</div>
             <div style="font-size:.72rem;color:var(--accent);font-weight:600;letter-spacing:.5px;text-transform:uppercase;">Live Broadcast · High Definition Feed</div>
@@ -5517,7 +4716,7 @@ const vids=[
   {t:"The New Year's Scenery",tk:"설풍경",d:"North Korean Film - The New Year's Scenery / 조선영화 설풍경 -- 2026년 2월 17일",u:"https://vod.koryo.tv/media/original/user/admin/295456474c784a37a34a8f09661c9418.%EC%A1%B0%EC%84%A0%EC%98%81%ED%99%94%EC%84%A4%ED%92%8D%EA%B2%BDKoreanFilmTheNewYearsScenery2026%EB%85%842%EC%9B%9417%EC%9D%BC.mp4",y:"2026",c:"movies",ty:"Movie",views:"37",duration:"1:15:30",thumb:"data:image/jpeg;base64,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"},
   
   // Live Streams - Pinned at top with dynamic views
-  {t:'Korean Central Television (High Definition Feed)',tk:'조선중앙텔레비죤',d:'Live Stream By Intchoson Intchoson.com Korean Central Television, also known as KCTV (Korean: 조선중앙텔레비죤, Joseon Jungang Tellebijyon), formerly known as Pyongyang Television and Central Television Broadcasting System is the national broadcast station of North Korea, and the flagship channel of the Kor',u:'https://tv.intchoson.com/kctv/main_stream.m3u8',y:'2026',c:'live',ty:'Live TV',views:'78',duration:'LIVE',creator:'KoryoTV',thumb:'https://i.postimg.cc/3RgGg5vK/Screenshot-2026-04-02-19-11-34-049-com-google-android-youtube-edit.jpg',isM3U8:true,isPinned:true},
+  {t:'Korean Central Television (High Definition Feed) (KoryoTV)',tk:'조선중앙텔레비죤',d:'Live Stream By Koryo TV Koryo.tv Korean Central Television, also known as KCTV (Korean: 조선중앙텔레비죤, Joseon Jungang Tellebijyon), formerly known as Pyongyang Television and Central Television Broadcasting System is the national broadcast station of North Korea, and the flagship channel of the Korean Ce',u:'<div class="kctv-player">   <iframe      src="https://koryo.tv/channel/kctv"      scrolling="no"      allowfullscreen      allow="autoplay; encrypted-media">   </iframe> </div>  <style> .kctv-player {   position: relative;   width: 100%;   aspect-ratio: 16/9; /* Perfect 16:9 ratio */   overflow: hidden;   background: #000; }  .kctv-player iframe {   position: absolute;   top: -120px; /* Hides header text */   left: 0;   width: 100%;   height: calc(100% + 120px);   border: none;   overflow: hidden; }  /* Mobile adjustment */ @media (max-width: 768px) {   .kctv-player iframe {     top: -100px;     height: calc(100% + 100px);   } } </style>',y:'2026',c:'live',ty:'Live TV',views:'78',duration:'LIVE',creator:'KoryoTV',thumb:'https://i.postimg.cc/3RgGg5vK/Screenshot-2026-04-02-19-11-34-049-com-google-android-youtube-edit.jpg',isEmbed:true,isPinned:true},
   {t:"Korean Central Broadcasting Station (Radio)",tk:"조선중앙방송",d:"The Korean Central Broadcasting Station (KCBS) (Korean: 조선중앙방송; Hancha: 朝鮮中央放送; RR: Joseon Jungang Bangsong; MR: Chosŏn Chungang Pangsong) is a domestic radio station operated by the Korean Central Broadcasting Committee, a state-owned broadcaster in North Korea.",u:"https://radio.intchoson.com/kcbs/index.m3u8",y:"Live",c:"live",ty:"Radio",views:Math.floor(Math.random()*100)+1,duration:"LIVE",isM3U8:true,isPinned:true},
   {t:"Voice Of Korea (Radio)",tk:"조선의 소리",d:"Voice of Korea (Korean: 조선의 소리) is the international broadcasting service of North Korea. It broadcasts primarily information in Chinese, Spanish, German, English, French, Russian, Japanese and Arabic.Until 2002 it was known as Radio Pyongyang. The interval signal is identical to that of Korean Central Television.",u:"https://radio.intchoson.com/vok/index.m3u8",y:"Live",c:"live",ty:"Radio",views:Math.floor(Math.random()*100)+1,duration:"LIVE",isM3U8:true,isPinned:true},
   {t:"Pyongyang FM (FM radio)",tk:"평양FM",d:"Pyongyang FM (105.2 MHz) is a North Korean radio station, sometimes accessible via Bloxy Play TV or Radio Garden, that primarily broadcasts music, propaganda, and state-sanctioned content, often described as 'Koreanized' 70s-style Schlager music.",u:"https://listen7.myradio24.com/69366",y:"Live",c:"live",ty:"Radio",views:Math.floor(Math.random()*100)+1,duration:"LIVE",isM3U8:true,isPinned:true},
@@ -5554,7 +4753,7 @@ const vids=[
 
 
   // ========== CCTV NEWS ARCHIVE ==========
-  {t:"(KCTV Report) Results of the 15th Delegates Election Report",tk:"제15차 대의원선거 결과 보고",d:"Source: KCTV 2026-03-17 09:37~ via http://bloxyplay.github.io/ProjectBloxyflix/\nStream Source Credit: https://www.intchoson.com/kctv/\n\n《15th Supreme People's Assembly》\nPress Release of the Central Election Committee for the Election of Deputies to the 15th Supreme People's Assembly of the Democratic People's Republic of Korea:\n\"On the Results of the Election of Deputies to the 15th Supreme People's Assembly of the Democratic People's Republic of Korea\"\n\n—\n\nBloxyFlix is a free educational digital archive dedicated to preserving and providing access to North Korean cinema, cultural performances, documentaries, and live broadcasts. Our mission is to make these important cultural artifacts available for educational and research purposes worldwide.\n\nOur Mission\nWe are committed to the responsible preservation of historical media. These audiovisual records constitute an important and frequently underrepresented component of global broadcast and cinematic history. By maintaining an organised, accessible repository, we seek to:\n• Support academic research into North Korean media, culture, and society\n• Preserve cultural content that might otherwise be lost or difficult to access\n• Facilitate cross-cultural understanding through open media access\n• Provide a resource for educators, students, and researchers worldwide\n\nContent Sources\nKorean Central Television (KCTV) — Official international broadcasts\nIntchoson — Streaming platform archives\nKoryo TV — The DPRK movies and performances provider!\nYouTube — Verified archival channels including Koryo TV and Intchoson\n\nContact: blockystudiocompanylimited@gmail.com",u:"gJYKACfK1xM",y:"2026",c:"news",ty:"News Report",views:"0",duration:"Election Report",isYouTube:true,creator:"Bloxy Play TV",badge:"new",thumb:"https://img.youtube.com/vi/gJYKACfK1xM/hqdefault.jpg"},
+  {t:"(KCTV Report) Results of the 15th Delegates Election Report",tk:"제15차 대의원선거 결과 보고",d:"Source: KCTV 2026-03-17 09:37~ via http://bloxyplay.github.io/ProjectBloxyflix/\nStream Source Credit: https://www.intchoson.com/kctv/\n\n《15th Supreme People's Assembly》\nPress Release of the Central Election Committee for the Election of Deputies to the 15th Supreme People's Assembly of the Democratic People's Republic of Korea:\n\"On the Results of the Election of Deputies to the 15th Supreme People's Assembly of the Democratic People's Republic of Korea\"\n\n—\n\nBloxyFlix is a free educational digital archive dedicated to preserving and providing access to North Korean cinema, cultural performances, documentaries, and live broadcasts. Our mission is to make these important cultural artifacts available for educational and research purposes worldwide.\n\nOur Mission\nWe believe in the power of cultural exchange and understanding. North Korean cinema and media represent a unique and often underexplored aspect of global film history. By providing accessible, organized access to this content, we aim to:\n• Support academic research into North Korean media, culture, and society\n• Preserve cultural content that might otherwise be lost or difficult to access\n• Foster greater cross-cultural understanding through media accessibility\n• Provide a resource for educators, students, and researchers worldwide\n\nContent Sources\nKorean Central Television (KCTV) — Official international broadcasts\nIntchoson — Streaming platform archives\nKoryo TV — The DPRK movies and performances provider!\nYouTube — Verified archival channels including Koryo TV and Intchoson\n\nContact: blockystudiocompanylimited@gmail.com",u:"gJYKACfK1xM",y:"2026",c:"news",ty:"News Report",views:"0",duration:"Election Report",isYouTube:true,creator:"Bloxy Play TV",badge:"new",thumb:"https://img.youtube.com/vi/gJYKACfK1xM/hqdefault.jpg"},
   {t:"China Central Television News Broadcast March 19, 2026 【Xinwen Lianbo】",tk:"新闻联播 2026年3月19日",d:"China Central Television News Broadcast — March 19, 2026 【Xinwen Lianbo】\n\nChapters:\n00:00 News Highlights Summary\n01:45 [New Ideas Lead the New Journey] Deliver Results for the People Through Practical Action\n08:45 Ding Xuexiang Meets UAE Presidential Envoy for China Affairs\n09:42 [Unite Hearts, Work Hard, Strive for a Strong Start to the 15th Five-Year Plan] Shanghai Accelerates Building a Higher-Level Open Economy\n12:05 China's Industrial Economy Achieves Strong Start in First Two Months\n13:46 [On the Fields of Hope] Racing Against the Season — Spring Plowing and Crop Management Underway Across the Country\n15:50 'Spring Economy' Booming — Cultural Tourism Consumption Continues to Surge\n17:43 [News Feature] A Different Kind of Urban Renewal\n20:07 Domestic News Roundup:\n(1) Guidelines on Accelerating Green Transition of Small Hydropower Stations Issued\n(2) China Issues 198 Million Green Certificates in February 2026\n(3) Xiong'an New Area Forest Coverage Rate Rises to 35.1%\n(4) 'Spring Employment Drive' Launched for 2026 University Graduates\n(5) General Administration of Customs Revises Regulations on Registration of Overseas Food Manufacturers\n(6) Xinjiang Oilfield Tianshan Gas Field Surpasses 1 Billion Cubic Meters of Natural Gas Output\n(7) China's Total Covered Bridge Heritage Sites Reaches 2,193\n(8) CMG 'Spring in China' Global Dialogue Forum Held Across Multiple Countries\n22:56 Israel Says It Struck Iranian Energy Facilities in Coordination With U.S. — Iran Vows Retaliation Against U.S.-Linked Energy Infrastructure:\n(1) Several European Nations Say They Will Not Join U.S.-Israel Military Action Against Iran\n(2) U.S. Director of National Intelligence Says Iran Has Not Attempted to Rebuild Uranium Enrichment Capability\n25:50 U.S. Federal Debt Surpasses $39 Trillion — U.S. Media Says War Is One Reason for Debt Surge\n26:51 Russia Warns Japan to Learn From History and Not Repeat Past Mistakes\n27:29 International News Roundup:\n(1) Lebanon Says Israeli Airstrikes Have Killed 968 People\n(2) Russia Says Russia-U.S.-Ukraine Security Working Group Has Suspended Operations\n(3) U.S. Federal Reserve Announces Federal Funds Rate Held Unchanged\n(4) U.S. Freight Train Derails, Causing Partial Chemical Spill",u:"Ri3A7TzNL84",y:"2026",c:"cctv",ty:"CCTV News",views:"0",duration:"News Broadcast",isYouTube:true,creator:"CCTV",badge:"new"},
   {t:"China Central Television News Broadcast March 18, 2026",tk:"新闻联播 2026年3月18日",d:"China Central Television News Broadcast March 18, 2026.",u:"utPfaklmodE",y:"2026",c:"cctv",ty:"CCTV News",views:"0",duration:"News Broadcast",isYouTube:true,creator:"CCTV",badge:"new"},
   {t:"China Central Television News Broadcast March 17, 2026 【Xinwen Lianbo】",tk:"新闻联播 2026年3月17日",d:"China Central Television News Broadcast March 17, 2026.\n\nStream link expired — CCTV CDN links are time-limited. A fresh link will be added soon. For now, watch the full broadcast at tv.cctv.com",u:"",y:"2026",c:"cctv",ty:"CCTV News",views:"2.1K",duration:"News Broadcast",creator:"CCTV",badge:"soon",comingSoon:true},
@@ -5563,8 +4762,8 @@ const vids=[
   {t:"Korean Central Television 21 March 2026",tk:"조선중앙텔레비죤 2026년 3월 21일",d:"This video, broadcast on March 21, 2026, highlights the activities of Kim Jong Un and various developments in North Korea, focusing on healthcare, industrial production, and agriculture.\n\nChapters:\n0:25 - Healthcare and Leadership Dedication\n0:25 - Kim Jong Un's visit to Ryugyong Dental Hospital (March 21, 2014)\n1:33 - Inspection of dental facilities and equipment\n2:49 - Visit to Okryu Children's Hospital\n4:01 - Industrial and Economic Development\n4:26 - 3rd Revolution Red Flag Movement awards (Phyongchon District)\n7:25 - Komdok Mining Complex mineral production expansion\n8:45 - Modernized consumer goods factories in Jaeryong County\n10:15 - Jungphyong Greenhouse Farm agricultural innovation\n13:09 - Youth and Social Activities\n13:09 - High school graduates from Nampo City volunteer for army\n14:25 - Mass chorus performance for graduates\n17:40 - International News and Weather\n17:40 - Bombing attack in Borno State, Nigeria\n18:08 - Storm damage in Karachi, Pakistan\n18:32 - Flooding and landslides in southern Italy\n18:59 - UN report: World enters 'water bankruptcy' era (4.5 billion affected)\n21:01 - Weather forecast: Dry conditions and forest fire risk in northern DPRK",u:"9AkbQYJu9-o",y:"2026",c:"news",ty:"Full Broadcast",views:"0",duration:"Full Broadcast",isYouTube:true,creator:"Korean Central Television TV",badge:"new",hasChapters:true},
   {t:"Korean Central Television — March 22, 2026 News",tk:"조선중앙텔레비죤 뉴스 — 2026년 3월 22일",d:"KCTV NEWS\n\nKorean Central Television news broadcast from March 22, 2026. News Broadcast of the Democratic People's Republic of Korea. Signal from Pyongyang, Korea.",u:"aLsxcLMQ7C8",y:"2026",c:"news",ty:"News Report",views:"0",duration:"News Broadcast",isYouTube:true,creator:"Korean Central Television TV",badge:"new"},
   {t:"Proceedings of the 1st Day — 1st Session of the 15th Supreme People's Assembly of the DPRK",tk:"조선민주주의인민공화국 최고인민회의 제15기 제1차회의 1일회의 진행",d:"조선민주주의인민공화국 최고인민회의 제15기 제1차회의 1일회의 진행\n\nProceedings of the first day of the first session of the 15th Supreme People's Assembly of the Democratic People's Republic of Korea. Broadcast on Korean Central Television.",u:"z12s7492yHM",y:"2026",c:"news",ty:"Government Proceedings",views:"0",duration:"Full Session",isYouTube:true,creator:"Korean Central Television TV",badge:"new"},
-  {t:"China Central Television News — March 22, 2026",tk:"中央电视台新闻联播 — 2026年3月22日",subtitle:"CCTV 新闻联播",d:"Episode highlights:\n00:00 CCTV News summary highlights\n01:33 Xi Jinping sends congratulatory message to 10th CELAC Summit\n02:56 [Forge consensus, work hard, make a good start for the 15th Five-Year Plan] High-level opening writes new chapter of cooperation and mutual benefit\n08:54 Li Qiang attends opening of China Development Forum 2026 and delivers keynote address\n10:49 [Establish and practice correct view of achievements] Deepen study and education through learning-driven action\n14:20 China has completed the world's leading national water network\n17:24 China's land quality is stable and improving\n18:42 [Cultural China] Mengmiao in Zoucheng, Shandong: Stone inscriptions reflect Confucian spirit, righteousness endures through the ages\n21:22 Domestic news briefs: (1) Two departments issue 16 measures to promote youth employment; (2) Agriculture Ministry and meteorology bureau jointly issue farmland waterlogging risk warning; (3) Civil aviation passenger volume up 11% YoY in February; (4) Xiong'an International Airport officially opens; (5) NEEQ listed companies exceed 300; (6) EV charging infrastructure up 47.8% YoY as of end of February; (7) Migratory birds arrive in large numbers across multiple regions\n24:31 US and Israel strike Iran's nuclear and military targets; Iran strikes multiple cities in southern Israel: (1) US demands Iran open Strait of Hormuz within 48 hours; (2) Anti-war protests held in UK, Germany, Spain and other nations\n27:48 Israel approves new operation plan against Lebanese Hezbollah; Hezbollah claims strikes on Israeli air defence systems\n28:31 International news briefs: (1) 10th CELAC Summit stresses regional integration; (2) US president says immigration enforcement officers will take over airport security",u:"ibF6uMonkc4",y:"2026",c:"cctv",ty:"CCTV News",views:"0",duration:"News Broadcast",isYouTube:true,creator:"CCTV News",badge:"new"}
-
+  {t:"China Central Television News — March 22, 2026",tk:"中央电视台新闻联播 — 2026年3月22日",subtitle:"CCTV 新闻联播",d:"Episode highlights:\n00:00 CCTV News summary highlights\n01:33 Xi Jinping sends congratulatory message to 10th CELAC Summit\n02:56 [Forge consensus, work hard, make a good start for the 15th Five-Year Plan] High-level opening writes new chapter of cooperation and mutual benefit\n08:54 Li Qiang attends opening of China Development Forum 2026 and delivers keynote address\n10:49 [Establish and practice correct view of achievements] Deepen study and education through learning-driven action\n14:20 China has completed the world's leading national water network\n17:24 China's land quality is stable and improving\n18:42 [Cultural China] Mengmiao in Zoucheng, Shandong: Stone inscriptions reflect Confucian spirit, righteousness endures through the ages\n21:22 Domestic news briefs: (1) Two departments issue 16 measures to promote youth employment; (2) Agriculture Ministry and meteorology bureau jointly issue farmland waterlogging risk warning; (3) Civil aviation passenger volume up 11% YoY in February; (4) Xiong'an International Airport officially opens; (5) NEEQ listed companies exceed 300; (6) EV charging infrastructure up 47.8% YoY as of end of February; (7) Migratory birds arrive in large numbers across multiple regions\n24:31 US and Israel strike Iran's nuclear and military targets; Iran strikes multiple cities in southern Israel: (1) US demands Iran open Strait of Hormuz within 48 hours; (2) Anti-war protests held in UK, Germany, Spain and other nations\n27:48 Israel approves new operation plan against Lebanese Hezbollah; Hezbollah claims strikes on Israeli air defence systems\n28:31 International news briefs: (1) 10th CELAC Summit stresses regional integration; (2) US president says immigration enforcement officers will take over airport security",u:"ibF6uMonkc4",y:"2026",c:"cctv",ty:"CCTV News",views:"0",duration:"News Broadcast",isYouTube:true,creator:"CCTV News",badge:"new"},
+  {t:"CCTV-4 China International Channel (24/7 Live)",tk:"中央电视台中文国际频道 (直播)",d:"CCTV's Chinese International Channel aims to \"inherit Chinese civilization and serve Chinese people around the world,\" providing news, cultural information, interactive services, and other services to users both at home and abroad.\n\n#直播 #中国新闻 #Live",u:"7j92Myu2wzg",y:"Live",c:"live",ty:"Live TV",views:Math.floor(Math.random()*100)+1,duration:"LIVE",isYouTube:true,isPinned:true,badge:"live"},
 ,
   {t:'CCTV News Boadcast 31st March 2026.',tk:'新闻联播 2026年3月31日',d:'本期节目主要内容： 00:00​ 新闻联播要点汇总； 01:31​ 让中国式现代化的底色更加亮丽——习近平总书记参加首都义务植树活动时的重要讲话在广大干部群众中引发热烈反响； 07:06​ 赵乐际会见奥地利中国友好协会高级代表团； 08:05​ 二十届首都规划建设委员会第七次全体会议在京召开 蔡奇出席并讲话； 10:05​ 【“十五五”新图景】聚力“未来产业” 引领产业未来； 13:48​ 3月份中国制造业采购经理指数重回扩张区间； 14:40​ 2026年前两个月轻工业经济运行起步稳健； 15:44​ 【在希望的田野上】科技赋能 让春耕春管更高效； 17:56​ 百花盛开迎客来 助力春日经济',u:'HVG1U0Av6P0',y:'2026',c:'cctv',ty:'News',views:'32',duration:'30:00',creator:'CCTV',badge:'new',isYouTube:true},
   {t:'Korean Central Television - Higher and faster (Date Unknown) (EllyCoreARM)',d:'This video features a North Korean propaganda-style song titled "Higher and Faster," broadcast by Korean Central Television.   The content centers on themes of national mobilization, industrial progress, and ideological devotion. Throughout the video (0:10-3:26), the lyrics and imagery emphasize:  U',u:'wedN1oT0uYQ',y:'2026',c:'documentaries',ty:'Historical Archives',views:'34',duration:'3:26',creator:'EllyCoreARM',badge:'new',isYouTube:true}
@@ -5586,17 +4785,8 @@ const vids=[
   {t:'Qiushi Magazine Publishes Important Article by General Secretary Xi Jinping: "Establishing and Practicing a Correct Outlook on Political Performance" | CCTV "Xinwen Lianbo" 20260401',tk:'《求是》杂志发表习近平总书记重要文章《树立和践行正确政绩观》| CCTV「新闻联播」20260401',d:'《求是》杂志发表习近平总书记重要文章《树立和践行正确政绩观》| CCTV「新闻联播」20260401',u:'c58-ktse1zI',y:'2026',c:'cctv',ty:'News',views:'34',duration:'30:00',creator:'CCTV China',badge:'new',isYouTube:true}
 ,
   {t:'Respected Comrade Kim Jong Un provided on-site guidance at the construction site of the Overseas Military Operations Combat Merit Memorial Hall.',tk:'경애하는 김정은동지께서 해외군사작전 전투위훈기념관건설장을 현지지도하시였다',d:'경애하는 김정은동지께서 해외군사작전 전투위훈기념관건설장을 현지지도하시였다',u:'1H55-TEgdwHz02pZZ98hKE1PW7wg3whFp',y:'2026',c:'news',ty:'News',views:'21',duration:'1:52',creator:'Korean Central Television',badge:'new',isGoogleDrive:true}
-
 ,
-  {t:'Friendly Father',tk:'친근한 어버이',u:'1Fbe4RkrZzogSJeS_-Eh1YEt9CkO9HKw7',y:'2026',c:'documentaries',ty:'News',views:'34',duration:'3:54',creator:'Korean Central Television',badge:'new',thumb:'https://i.postimg.cc/dtHwXRHW/Bloxy-Play-TV-chingeunhan-eobeoi.jpg',isGoogleDrive:true,gdriveFileId:'1Fbe4RkrZzogSJeS_-Eh1YEt9CkO9HKw7'},
-  {t:'Korean Central Television News Broadcast 3rd April 2026',tk:'2026년 4월 3일 중앙텔레비죤 20시보도',u:'NSXsla9lTgs',y:'2026',c:'news',ty:'News',views:'3',duration:'23.07',creator:'Korean Central Television',badge:'new',isYouTube:true}
-,
-  {t:'34th April Spring Friendship Arts Festival - China Arts Center Performance',tk:'제34차 4월의 봄 친선예술축전 - 중국예',d:'Archived and Recorded By Koryo TV\'s VOD',u:'<iframe width="560" height="315" src="https://vod.koryo.tv/embed?m=jOcxmvDDL" frameborder="0" allowfullscreen></iframe>',y:'2026',c:'news',ty:'Performance',views:'15',duration:'1:02:04',creator:'Koryo TV',badge:'new',isEmbed:true},
-  {t:'Northern Sunset - Part 8',tk:'북방의 노을 - 제8부',d:'Archived and recorded By Koryo TV\'s VOD',u:'<iframe width="560" height="315" src="https://vod.koryo.tv/embed?m=4SPt7fOPs" frameborder="0" allowfullscreen></iframe>',y:'2026',c:'news',ty:'Movie',views:'43',duration:'48:05',creator:'Koryo TB',badge:'new',isEmbed:true},
-  {t:'34th April Spring Friendship Arts Festival Performance by the Russian Military Academy Concert Group',d:'Archived and recorded by Koryotv',u:'<iframe width="560" height="315" src="https://vod.koryo.tv/embed?m=dmILLLPFM" frameborder="0" allowfullscreen></iframe>',y:'2026',c:'performances',ty:'New',views:'35',duration:'1:24:13',creator:'Koryo TV',badge:'new',isEmbed:true},
-  {t:'34th April Spring Friendship Arts Festival - Group Performance Article 3',d:'Archived and recorded by Koryotv',u:'<iframe width="560" height="315" src="https://vod.koryo.tv/embed?m=PJIO9pThw" frameborder="0" allowfullscreen></iframe>',y:'2026',c:'performances',ty:'New',views:'54',duration:'1:04:10',creator:'Koryotv',badge:'new',isEmbed:true},
-  {t:'34th April Spring Friendship Arts Festival - Group Performance Article 6',d:'Archived and recorded by Koryotv',u:'<iframe width="560" height="315" src="https://vod.koryo.tv/embed?m=1zKO7XQjc" frameborder="0" allowfullscreen></iframe>',y:'2026',c:'performances',ty:'New',views:'44',duration:'1:02:39',creator:'Koryo TV',badge:'new',isEmbed:true},
-  {t:'34th April Spring Friendship Arts Festival - Performance by the Russian Federation National Guard',d:'Archived and recorded By Koryo TV\'s VOD',u:'<iframe width="560" height="315" src="https://vod.koryo.tv/embed?m=KHBJyuBi7" frameborder="0" allowfullscreen></iframe>',y:'2026',c:'performances',ty:'New',views:'33',duration:'1:08:51',creator:'Koryo TV',badge:'new',isEmbed:true}
+  {t:'Korean Central Television LIVE Broadcast 24/7 Live',d:'Live stream support by KoryoTV!',u:'<div style="position:fixed; top:0; left:0; width:100%; height:100%; background:#000; overflow:hidden; z-index:9999;">      <div style="position:absolute; top:0; left:0; width:100%; height:56.25vw; max-height:100vh; overflow:hidden; background:#000;">     <iframe        src="https://koryo.tv/channel/kctv"        style="position:absolute; top:-120px; left:-2%; width:104%; height:calc(100% + 500px); border:none; background:#000;"        scrolling="no"        sandbox="allow-scripts allow-same-origin allow-presentation"        allowtransparency="true"       allowfullscreen>     </iframe>   </div>  </div>  <style>   body, html { background-color: #000 !important; margin: 0; padding: 0; } </style>',y:'2026',c:'movies',ty:'Live',views:'34',duration:'24/7',creator:'Koryo TV',badge:'new',isEmbed:true}
 ];
 
 let bfPlayer,radioAudio=null,radioCtx=null,radioAnalyser=null,radioAnimFrame=null,radioPlaying=false,curVid=null,deferredPrompt=null,curFilter='all',searchFilter='all',isTheaterMode=false,curSortOrder='newest';
@@ -5986,7 +5176,7 @@ function makePlaceholderSVG(title, cat){
     performances:{bg1:'#0d0014',bg2:'#080808',acc:'#9c27b0',dim:'#4a0070',label:'PERFORMANCE'},
     documentaries:{bg1:'#001020',bg2:'#080c10',acc:'#2196f3',dim:'#0a4080',label:'DOCUMENTARY'},
     live:       {bg1:'#001408',bg2:'#080a08',acc:'#4caf50',dim:'#1a5c1a',label:'LIVE'},
-    youtube:    {bg1:'#030c1a',bg2:'#0a0808',acc:'#1a7fff',dim:'#0a2a6e',label:'YOUTUBE'},
+    youtube:    {bg1:'#1a0000',bg2:'#0a0808',acc:'#ff0000',dim:'#8b1a1a',label:'YOUTUBE'},
     news:       {bg1:'#100800',bg2:'#080600',acc:'#ff9800',dim:'#7a4000',label:'NEWS'},
     cctv:       {bg1:'#100000',bg2:'#080000',acc:'#ff1a1a',dim:'#800000',label:'CCTV'},
   };
@@ -6200,7 +5390,7 @@ function renderKctvNews(){
         </div>
       </div>
       <div class="card-info">
-        <div class="card-avatar" style="background:linear-gradient(135deg,#e50914,#003d99);font-size:.7rem;font-weight:900;">KCTV</div>
+        <div class="card-avatar" style="background:linear-gradient(135deg,#e50914,#8b0000);font-size:.7rem;font-weight:900;">KCTV</div>
         <div class="card-details">
           <div class="card-title">${v.t}</div>
           <div class="card-kr">${v.tk}</div>
@@ -7351,7 +6541,7 @@ function escapeHtml(text){
 
     <!-- Header -->
     <div style="display:flex;align-items:center;gap:.65rem;margin-bottom:1rem;">
-      <svg viewBox="0 0 24 24" fill="#1a7fff" width="22" height="22"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+      <svg viewBox="0 0 24 24" fill="#ff0000" width="22" height="22"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
       <span style="font-size:1rem;font-weight:700;color:#fff;">Stream Source</span>
     </div>
 
@@ -7367,7 +6557,7 @@ function escapeHtml(text){
     <div style="margin-bottom:.5rem;font-size:.7rem;text-transform:uppercase;letter-spacing:1.2px;color:#555;font-weight:700;">📡 Stream Source</div>
     <div style="background:#0a0a0a;border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:.75rem 1rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-bottom:1rem;">
       <span style="font-size:.78rem;color:#4f8ef7;word-break:break-all;font-family:monospace;">https://bloxyflix-kctv.netlify.app/</span>
-      <button onclick="copySourceLink()" id="srcCopyBtn" style="flex-shrink:0;background:var(--accent,#1a7fff);border:none;color:#fff;padding:.3rem .75rem;border-radius:8px;font-size:.75rem;font-weight:700;cursor:pointer;">Copy</button>
+      <button onclick="copySourceLink()" id="srcCopyBtn" style="flex-shrink:0;background:var(--accent,#ff0000);border:none;color:#fff;padding:.3rem .75rem;border-radius:8px;font-size:.75rem;font-weight:700;cursor:pointer;">Copy</button>
     </div>
 
     <!-- Official website -->
@@ -7378,7 +6568,7 @@ function escapeHtml(text){
     </div>
 
     <!-- Visit official button -->
-    <a href="https://bloxyplaytv.netlify.app/" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:.5rem;width:100%;padding:.75rem;background:linear-gradient(135deg,#c00,#1a7fff);border-radius:12px;color:#fff;font-weight:700;font-size:.9rem;text-decoration:none;transition:opacity .2s;" onmouseover="this.style.opacity='.85'" onmouseout="this.style.opacity='1'">
+    <a href="https://bloxyplaytv.netlify.app/" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:.5rem;width:100%;padding:.75rem;background:linear-gradient(135deg,#c00,#ff0000);border-radius:12px;color:#fff;font-weight:700;font-size:.9rem;text-decoration:none;transition:opacity .2s;" onmouseover="this.style.opacity='.85'" onmouseout="this.style.opacity='1'">
       <svg viewBox="0 0 24 24" fill="white" width="16" height="16"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
       Visit Official Website
     </a>
